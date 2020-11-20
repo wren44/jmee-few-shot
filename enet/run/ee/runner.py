@@ -43,7 +43,7 @@ class EERunner(object):
         
         parser.add_argument("--webd", help="word embedding", required=False)
 
-        parser.add_argument("--batch", help="batch size", default=128, type=int)
+        parser.add_argument("--batch", help="batch size", default=32, type=int) #todo: 128
         parser.add_argument("--epochs", help="n of epochs", default=10, type=int) #todo: change it from max
 
         parser.add_argument("--seed", help="RNG seed", default=42, type=int)
