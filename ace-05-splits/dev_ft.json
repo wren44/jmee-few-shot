@@ -1,0 +1,5987 @@
+[
+    {
+        "sentence": "Everyone has heard the story: Beatriz Marinello was elected USCF President on August 11, 2003 in Los Angeles.",
+        "golden-entity-mentions": [
+            {
+                "text": "Los Angeles",
+                "entity-type": "GPE:Population-Center",
+                "head": {
+                    "text": "Los Angeles",
+                    "start": 18,
+                    "end": 20
+                },
+                "entity_id": "rec.games.chess.politics_20041216.1047-E16-108",
+                "start": 18,
+                "end": 20
+            },
+            {
+                "text": "Beatriz Marinello",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "Beatriz Marinello",
+                    "start": 6,
+                    "end": 8
+                },
+                "entity_id": "rec.games.chess.politics_20041216.1047-E39-86",
+                "start": 6,
+                "end": 8
+            },
+            {
+                "text": "USCF President",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "President",
+                    "start": 11,
+                    "end": 12
+                },
+                "entity_id": "rec.games.chess.politics_20041216.1047-E39-99",
+                "start": 10,
+                "end": 12
+            },
+            {
+                "text": "Everyone",
+                "entity-type": "PER:Group",
+                "head": {
+                    "text": "Everyone",
+                    "start": 0,
+                    "end": 1
+                },
+                "entity_id": "rec.games.chess.politics_20041216.1047-E46-106",
+                "start": 0,
+                "end": 1
+            },
+            {
+                "text": "USCF",
+                "entity-type": "ORG:Sports",
+                "head": {
+                    "text": "USCF",
+                    "start": 10,
+                    "end": 11
+                },
+                "entity_id": "rec.games.chess.politics_20041216.1047-E47-107",
+                "start": 10,
+                "end": 11
+            },
+            {
+                "text": "USCF President",
+                "entity-type": "Job-Title",
+                "head": {
+                    "text": "USCF President",
+                    "start": 10,
+                    "end": 12
+                },
+                "entity_id": "rec.games.chess.politics_20041216.1047-V1-1",
+                "start": 10,
+                "end": 12
+            },
+            {
+                "text": "August 11, 2003",
+                "entity-type": "TIM:time",
+                "head": {
+                    "text": "August 11, 2003",
+                    "start": 13,
+                    "end": 17
+                },
+                "entity_id": "rec.games.chess.politics_20041216.1047-T6-1",
+                "start": 13,
+                "end": 17
+            }
+        ],
+        "golden-event-mentions": [
+            {
+                "trigger": {
+                    "text": "elected",
+                    "start": 9,
+                    "end": 10
+                },
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "entity-type": "PER:Individual",
+                        "text": "Beatriz Marinello",
+                        "start": 6,
+                        "end": 8
+                    },
+                    {
+                        "role": "Place",
+                        "entity-type": "GPE:Population-Center",
+                        "text": "Los Angeles",
+                        "start": 18,
+                        "end": 20
+                    },
+                    {
+                        "role": "Entity",
+                        "entity-type": "ORG:Sports",
+                        "text": "USCF",
+                        "start": 10,
+                        "end": 11
+                    },
+                    {
+                        "role": "Position",
+                        "entity-type": "Job-Title",
+                        "text": "USCF President",
+                        "start": 10,
+                        "end": 12
+                    },
+                    {
+                        "role": "Time-Within",
+                        "entity-type": "TIM:time",
+                        "text": "August 11, 2003",
+                        "start": 13,
+                        "end": 17
+                    }
+                ],
+                "event_type": "Personnel:Elect"
+            }
+        ],
+        "stanford-colcc": [
+            "ROOT/dep=2/gov=-1",
+            "nsubj/dep=0/gov=2",
+            "aux/dep=1/gov=2",
+            "det/dep=3/gov=4",
+            "dobj/dep=4/gov=2",
+            "punct/dep=5/gov=2",
+            "compound/dep=6/gov=7",
+            "nsubjpass/dep=7/gov=9",
+            "auxpass/dep=8/gov=9",
+            "parataxis/dep=9/gov=2",
+            "compound/dep=10/gov=11",
+            "dobj/dep=11/gov=9",
+            "case/dep=12/gov=13",
+            "nmod:on/dep=13/gov=11",
+            "nummod/dep=14/gov=13",
+            "punct/dep=15/gov=13",
+            "nummod/dep=16/gov=13",
+            "case/dep=17/gov=19",
+            "compound/dep=18/gov=19",
+            "nmod:in/dep=19/gov=9",
+            "punct/dep=20/gov=2"
+        ],
+        "words": [
+            "Everyone",
+            "has",
+            "heard",
+            "the",
+            "story",
+            ":",
+            "Beatriz",
+            "Marinello",
+            "was",
+            "elected",
+            "USCF",
+            "President",
+            "on",
+            "August",
+            "11",
+            ",",
+            "2003",
+            "in",
+            "Los",
+            "Angeles",
+            "."
+        ],
+        "pos-tags": [
+            "NN",
+            "VBZ",
+            "VBN",
+            "DT",
+            "NN",
+            ":",
+            "NNP",
+            "NNP",
+            "VBD",
+            "VBN",
+            "NNP",
+            "NNP",
+            "IN",
+            "NNP",
+            "CD",
+            ",",
+            "CD",
+            "IN",
+            "NNP",
+            "NNP",
+            "."
+        ],
+        "lemma": [
+            "everyone",
+            "have",
+            "hear",
+            "the",
+            "story",
+            ":",
+            "Beatriz",
+            "Marinello",
+            "be",
+            "elect",
+            "USCF",
+            "President",
+            "on",
+            "August",
+            "11",
+            ",",
+            "2003",
+            "in",
+            "Los",
+            "Angeles",
+            "."
+        ],
+        "parse": "(ROOT\n  (S\n    (S\n      (NP (NN Everyone))\n      (VP (VBZ has)\n        (VP (VBN heard)\n          (NP (DT the) (NN story)))))\n    (: :)\n    (S\n      (NP (NNP Beatriz) (NNP Marinello))\n      (VP (VBD was)\n        (VP (VBN elected)\n          (NP\n            (NP (NNP USCF) (NNP President))\n            (PP (IN on)\n              (NP (NNP August) (CD 11) (, ,) (CD 2003))))\n          (PP (IN in)\n            (NP (NNP Los) (NNP Angeles))))))\n    (. .)))"
+    },
+    {
+        "sentence": "Immediately after she took office, she found out that the USCF had no money in the bank, zero.",
+        "golden-entity-mentions": [
+            {
+                "text": "the bank",
+                "entity-type": "ORG:Commercial",
+                "head": {
+                    "text": "bank",
+                    "start": 17,
+                    "end": 18
+                },
+                "entity_id": "rec.games.chess.politics_20041216.1047-E9-112",
+                "start": 16,
+                "end": 18
+            },
+            {
+                "text": "she",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "she",
+                    "start": 2,
+                    "end": 3
+                },
+                "entity_id": "rec.games.chess.politics_20041216.1047-E39-109",
+                "start": 2,
+                "end": 3
+            },
+            {
+                "text": "she",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "she",
+                    "start": 6,
+                    "end": 7
+                },
+                "entity_id": "rec.games.chess.politics_20041216.1047-E39-110",
+                "start": 6,
+                "end": 7
+            },
+            {
+                "text": "the USCF",
+                "entity-type": "ORG:Sports",
+                "head": {
+                    "text": "USCF",
+                    "start": 11,
+                    "end": 12
+                },
+                "entity_id": "rec.games.chess.politics_20041216.1047-E47-111",
+                "start": 10,
+                "end": 12
+            }
+        ],
+        "golden-event-mentions": [
+            {
+                "trigger": {
+                    "text": "took",
+                    "start": 3,
+                    "end": 4
+                },
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "entity-type": "PER:Individual",
+                        "text": "she",
+                        "start": 2,
+                        "end": 3
+                    },
+                    {
+                        "role": "Entity",
+                        "entity-type": "ORG:Sports",
+                        "text": "the USCF",
+                        "start": 10,
+                        "end": 12
+                    }
+                ],
+                "event_type": "Personnel:Start-Position"
+            }
+        ],
+        "stanford-colcc": [
+            "ROOT/dep=7/gov=-1",
+            "advmod/dep=0/gov=3",
+            "mark/dep=1/gov=3",
+            "nsubj/dep=2/gov=3",
+            "advcl:after/dep=3/gov=7",
+            "dobj/dep=4/gov=3",
+            "punct/dep=5/gov=7",
+            "nsubj/dep=6/gov=7",
+            "compound:prt/dep=8/gov=7",
+            "mark/dep=9/gov=12",
+            "det/dep=10/gov=11",
+            "nsubj/dep=11/gov=12",
+            "ccomp/dep=12/gov=7",
+            "neg/dep=13/gov=14",
+            "dobj/dep=14/gov=12",
+            "case/dep=15/gov=17",
+            "det/dep=16/gov=17",
+            "nmod:in/dep=17/gov=14",
+            "punct/dep=18/gov=17",
+            "amod/dep=19/gov=17",
+            "punct/dep=20/gov=7"
+        ],
+        "words": [
+            "Immediately",
+            "after",
+            "she",
+            "took",
+            "office",
+            ",",
+            "she",
+            "found",
+            "out",
+            "that",
+            "the",
+            "USCF",
+            "had",
+            "no",
+            "money",
+            "in",
+            "the",
+            "bank",
+            ",",
+            "zero",
+            "."
+        ],
+        "pos-tags": [
+            "RB",
+            "IN",
+            "PRP",
+            "VBD",
+            "NN",
+            ",",
+            "PRP",
+            "VBD",
+            "RP",
+            "IN",
+            "DT",
+            "NNP",
+            "VBD",
+            "DT",
+            "NN",
+            "IN",
+            "DT",
+            "NN",
+            ",",
+            "CD",
+            "."
+        ],
+        "lemma": [
+            "immediately",
+            "after",
+            "she",
+            "take",
+            "office",
+            ",",
+            "she",
+            "find",
+            "out",
+            "that",
+            "the",
+            "USCF",
+            "have",
+            "no",
+            "money",
+            "in",
+            "the",
+            "bank",
+            ",",
+            "zero",
+            "."
+        ],
+        "parse": "(ROOT\n  (S\n    (SBAR\n      (ADVP (RB Immediately))\n      (IN after)\n      (S\n        (NP (PRP she))\n        (VP (VBD took)\n          (NP (NN office)))))\n    (, ,)\n    (NP (PRP she))\n    (VP (VBD found)\n      (PRT (RP out))\n      (SBAR (IN that)\n        (S\n          (NP (DT the) (NNP USCF))\n          (VP (VBD had)\n            (NP\n              (NP (DT no) (NN money))\n              (PP (IN in)\n                (NP\n                  (NP (DT the) (NN bank))\n                  (, ,)\n                  (NP (CD zero)))))))))\n    (. .)))"
+    },
+    {
+        "sentence": "The purpose of having a \"time limit\" would be as a mechanism to ensure compliance with the above principles; that is, you would have a time limit because it would reduce the likelihood that someone would be tempted to violate the above prohibition; it would give the voters time to elect a new EB that would consider the issues objectively.",
+        "golden-entity-mentions": [
+            {
+                "text": "you",
+                "entity-type": "PER:Indeterminate",
+                "head": {
+                    "text": "you",
+                    "start": 25,
+                    "end": 26
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E9-18",
+                "start": 25,
+                "end": 26
+            },
+            {
+                "text": "the voters",
+                "entity-type": "PER:Group",
+                "head": {
+                    "text": "voters",
+                    "start": 52,
+                    "end": 53
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E10-20",
+                "start": 51,
+                "end": 53
+            },
+            {
+                "text": "a new EB that would consider the issues objectively",
+                "entity-type": "PER:Group",
+                "head": {
+                    "text": "EB",
+                    "start": 58,
+                    "end": 59
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E11-21",
+                "start": 56,
+                "end": 65
+            },
+            {
+                "text": "that",
+                "entity-type": "PER:Group",
+                "head": {
+                    "text": "that",
+                    "start": 59,
+                    "end": 60
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E11-31",
+                "start": 59,
+                "end": 60
+            },
+            {
+                "text": "someone",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "someone",
+                    "start": 38,
+                    "end": 39
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E54-19",
+                "start": 38,
+                "end": 39
+            },
+            {
+                "text": "new",
+                "entity-type": "TIM:time",
+                "head": {
+                    "text": "new",
+                    "start": 57,
+                    "end": 58
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-T14-1",
+                "start": 57,
+                "end": 58
+            }
+        ],
+        "golden-event-mentions": [
+            {
+                "trigger": {
+                    "text": "elect",
+                    "start": 55,
+                    "end": 56
+                },
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "entity-type": "PER:Group",
+                        "text": "a new EB that would consider the issues objectively",
+                        "start": 56,
+                        "end": 65
+                    },
+                    {
+                        "role": "Entity",
+                        "entity-type": "PER:Group",
+                        "text": "the voters",
+                        "start": 51,
+                        "end": 53
+                    }
+                ],
+                "event_type": "Personnel:Elect"
+            }
+        ],
+        "stanford-colcc": [
+            "ROOT/dep=13/gov=-1",
+            "det/dep=0/gov=1",
+            "nsubj/dep=1/gov=13",
+            "mark/dep=2/gov=3",
+            "acl:of/dep=3/gov=1",
+            "det/dep=4/gov=7",
+            "punct/dep=5/gov=7",
+            "compound/dep=6/gov=7",
+            "dobj/dep=7/gov=3",
+            "punct/dep=8/gov=7",
+            "aux/dep=9/gov=13",
+            "cop/dep=10/gov=13",
+            "case/dep=11/gov=13",
+            "det/dep=12/gov=13",
+            "mark/dep=14/gov=15",
+            "acl:to/dep=15/gov=13",
+            "dobj/dep=16/gov=15",
+            "case/dep=17/gov=20",
+            "det/dep=18/gov=20",
+            "amod/dep=19/gov=20",
+            "nmod:with/dep=20/gov=15",
+            "punct/dep=21/gov=13",
+            "advmod/dep=22/gov=27",
+            "mwe/dep=23/gov=22",
+            "punct/dep=24/gov=27",
+            "nsubj/dep=25/gov=27",
+            "aux/dep=26/gov=27",
+            "parataxis/dep=27/gov=13",
+            "det/dep=28/gov=30",
+            "compound/dep=29/gov=30",
+            "dobj/dep=30/gov=27",
+            "mark/dep=31/gov=34",
+            "nsubj/dep=32/gov=34",
+            "aux/dep=33/gov=34",
+            "advcl:because/dep=34/gov=27",
+            "det/dep=35/gov=36",
+            "dobj/dep=36/gov=34",
+            "dobj/dep=36/gov=43",
+            "ref/dep=37/gov=36",
+            "nsubjpass/dep=38/gov=41",
+            "nsubj:xsubj/dep=38/gov=43",
+            "aux/dep=39/gov=41",
+            "auxpass/dep=40/gov=41",
+            "acl:relcl/dep=41/gov=36",
+            "mark/dep=42/gov=43",
+            "xcomp/dep=43/gov=41",
+            "det/dep=44/gov=46",
+            "amod/dep=45/gov=46",
+            "dobj/dep=46/gov=43",
+            "punct/dep=47/gov=13",
+            "nsubj/dep=48/gov=50",
+            "aux/dep=49/gov=50",
+            "parataxis/dep=50/gov=13",
+            "det/dep=51/gov=52",
+            "iobj/dep=52/gov=50",
+            "dobj/dep=53/gov=50",
+            "mark/dep=54/gov=55",
+            "acl:to/dep=55/gov=53",
+            "det/dep=56/gov=58",
+            "amod/dep=57/gov=58",
+            "dobj/dep=58/gov=55",
+            "nsubj/dep=58/gov=61",
+            "ref/dep=59/gov=58",
+            "aux/dep=60/gov=61",
+            "acl:relcl/dep=61/gov=58",
+            "det/dep=62/gov=63",
+            "nmod:npmod/dep=63/gov=64",
+            "advmod/dep=64/gov=61",
+            "punct/dep=65/gov=13"
+        ],
+        "words": [
+            "The",
+            "purpose",
+            "of",
+            "having",
+            "a",
+            "``",
+            "time",
+            "limit",
+            "''",
+            "would",
+            "be",
+            "as",
+            "a",
+            "mechanism",
+            "to",
+            "ensure",
+            "compliance",
+            "with",
+            "the",
+            "above",
+            "principles",
+            ";",
+            "that",
+            "is",
+            ",",
+            "you",
+            "would",
+            "have",
+            "a",
+            "time",
+            "limit",
+            "because",
+            "it",
+            "would",
+            "reduce",
+            "the",
+            "likelihood",
+            "that",
+            "someone",
+            "would",
+            "be",
+            "tempted",
+            "to",
+            "violate",
+            "the",
+            "above",
+            "prohibition",
+            ";",
+            "it",
+            "would",
+            "give",
+            "the",
+            "voters",
+            "time",
+            "to",
+            "elect",
+            "a",
+            "new",
+            "EB",
+            "that",
+            "would",
+            "consider",
+            "the",
+            "issues",
+            "objectively",
+            "."
+        ],
+        "pos-tags": [
+            "DT",
+            "NN",
+            "IN",
+            "VBG",
+            "DT",
+            "``",
+            "NN",
+            "NN",
+            "''",
+            "MD",
+            "VB",
+            "IN",
+            "DT",
+            "NN",
+            "TO",
+            "VB",
+            "NN",
+            "IN",
+            "DT",
+            "JJ",
+            "NNS",
+            ":",
+            "DT",
+            "VBZ",
+            ",",
+            "PRP",
+            "MD",
+            "VB",
+            "DT",
+            "NN",
+            "NN",
+            "IN",
+            "PRP",
+            "MD",
+            "VB",
+            "DT",
+            "NN",
+            "WDT",
+            "NN",
+            "MD",
+            "VB",
+            "VBN",
+            "TO",
+            "VB",
+            "DT",
+            "JJ",
+            "NN",
+            ":",
+            "PRP",
+            "MD",
+            "VB",
+            "DT",
+            "NNS",
+            "NN",
+            "TO",
+            "VB",
+            "DT",
+            "JJ",
+            "NNP",
+            "WDT",
+            "MD",
+            "VB",
+            "DT",
+            "NNS",
+            "RB",
+            "."
+        ],
+        "lemma": [
+            "the",
+            "purpose",
+            "of",
+            "have",
+            "a",
+            "``",
+            "time",
+            "limit",
+            "''",
+            "would",
+            "be",
+            "as",
+            "a",
+            "mechanism",
+            "to",
+            "ensure",
+            "compliance",
+            "with",
+            "the",
+            "above",
+            "principle",
+            ";",
+            "that",
+            "be",
+            ",",
+            "you",
+            "would",
+            "have",
+            "a",
+            "time",
+            "limit",
+            "because",
+            "it",
+            "would",
+            "reduce",
+            "the",
+            "likelihood",
+            "that",
+            "someone",
+            "would",
+            "be",
+            "tempt",
+            "to",
+            "violate",
+            "the",
+            "above",
+            "prohibition",
+            ";",
+            "it",
+            "would",
+            "give",
+            "the",
+            "voter",
+            "time",
+            "to",
+            "elect",
+            "a",
+            "new",
+            "EB",
+            "that",
+            "would",
+            "consider",
+            "the",
+            "issue",
+            "objectively",
+            "."
+        ],
+        "parse": "(ROOT\n  (S\n    (S\n      (NP\n        (NP (DT The) (NN purpose))\n        (PP (IN of)\n          (S\n            (VP (VBG having)\n              (NP (DT a) (`` ``) (NN time) (NN limit) ('' ''))))))\n      (VP (MD would)\n        (VP (VB be)\n          (PP (IN as)\n            (NP (DT a) (NN mechanism)\n              (S\n                (VP (TO to)\n                  (VP (VB ensure)\n                    (NP (NN compliance))\n                    (PP (IN with)\n                      (NP (DT the) (JJ above) (NNS principles)))))))))))\n    (: ;)\n    (S\n      (ADVP (DT that) (VBZ is))\n      (, ,)\n      (NP (PRP you))\n      (VP (MD would)\n        (VP (VB have)\n          (NP (DT a) (NN time) (NN limit))\n          (SBAR (IN because)\n            (S\n              (NP (PRP it))\n              (VP (MD would)\n                (VP (VB reduce)\n                  (NP\n                    (NP (DT the) (NN likelihood))\n                    (SBAR\n                      (WHNP (WDT that))\n                      (S\n                        (NP (NN someone))\n                        (VP (MD would)\n                          (VP (VB be)\n                            (VP (VBN tempted)\n                              (S\n                                (VP (TO to)\n                                  (VP (VB violate)\n                                    (NP (DT the) (JJ above) (NN prohibition))))))))))))))))))\n    (: ;)\n    (S\n      (NP (PRP it))\n      (VP (MD would)\n        (VP (VB give)\n          (NP (DT the) (NNS voters))\n          (NP (NN time)\n            (S\n              (VP (TO to)\n                (VP (VB elect)\n                  (NP\n                    (NP (DT a) (JJ new) (NNP EB))\n                    (SBAR\n                      (WHNP (WDT that))\n                      (S\n                        (VP (MD would)\n                          (VP (VB consider)\n                            (ADVP\n                              (NP (DT the) (NNS issues))\n                              (RB objectively))))))))))))))\n    (. .)))"
+    },
+    {
+        "sentence": "But this is neither here nor there, because the fact that Randy Bauer is already talking about Beatriz Marinello as the USCF's new \"move coordinator\", whatever that involves, and whether or not it means that she would be the de facto interim ED, means that at some level and in some form these discussions HAVE already taken place, while Marinello is serving as President.",
+        "golden-entity-mentions": [
+            {
+                "text": "Randy Bauer",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "Randy Bauer",
+                    "start": 12,
+                    "end": 14
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E14-28",
+                "start": 12,
+                "end": 14
+            },
+            {
+                "text": "Beatriz Marinello",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "Beatriz Marinello",
+                    "start": 18,
+                    "end": 20
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E15-29",
+                "start": 18,
+                "end": 20
+            },
+            {
+                "text": "the USCF's new \"move coordinator\"",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "coordinator",
+                    "start": 27,
+                    "end": 28
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E15-30",
+                "start": 21,
+                "end": 28
+            },
+            {
+                "text": "she",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "she",
+                    "start": 41,
+                    "end": 42
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E15-33",
+                "start": 41,
+                "end": 42
+            },
+            {
+                "text": "the de facto interim ED",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "D",
+                    "start": 48,
+                    "end": 49
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E15-34",
+                "start": 44,
+                "end": 49
+            },
+            {
+                "text": "Marinello",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "Marinello",
+                    "start": 67,
+                    "end": 68
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E15-35",
+                "start": 67,
+                "end": 68
+            },
+            {
+                "text": "President",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "President",
+                    "start": 71,
+                    "end": 72
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E15-36",
+                "start": 71,
+                "end": 72
+            },
+            {
+                "text": "the USCF",
+                "entity-type": "ORG:Sports",
+                "head": {
+                    "text": "USCF",
+                    "start": 22,
+                    "end": 23
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E51-32",
+                "start": 21,
+                "end": 23
+            },
+            {
+                "text": "move coordinator",
+                "entity-type": "Job-Title",
+                "head": {
+                    "text": "move coordinator",
+                    "start": 26,
+                    "end": 28
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-V5-1",
+                "start": 26,
+                "end": 28
+            },
+            {
+                "text": "interim ED",
+                "entity-type": "Job-Title",
+                "head": {
+                    "text": "interim ED",
+                    "start": 47,
+                    "end": 49
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-V7-1",
+                "start": 47,
+                "end": 49
+            },
+            {
+                "text": "new",
+                "entity-type": "TIM:time",
+                "head": {
+                    "text": "new",
+                    "start": 24,
+                    "end": 25
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-T12-1",
+                "start": 24,
+                "end": 25
+            }
+        ],
+        "golden-event-mentions": [
+            {
+                "trigger": {
+                    "text": "new",
+                    "start": 24,
+                    "end": 25
+                },
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "entity-type": "PER:Individual",
+                        "text": "Beatriz Marinello",
+                        "start": 18,
+                        "end": 20
+                    },
+                    {
+                        "role": "Entity",
+                        "entity-type": "ORG:Sports",
+                        "text": "the USCF",
+                        "start": 21,
+                        "end": 23
+                    },
+                    {
+                        "role": "Position",
+                        "entity-type": "Job-Title",
+                        "text": "move coordinator",
+                        "start": 26,
+                        "end": 28
+                    }
+                ],
+                "event_type": "Personnel:Start-Position"
+            }
+        ],
+        "stanford-colcc": [
+            "ROOT/dep=3/gov=-1",
+            "cc/dep=0/gov=3",
+            "nsubj/dep=1/gov=3",
+            "nsubj/dep=1/gov=50",
+            "cop/dep=2/gov=3",
+            "advmod/dep=4/gov=3",
+            "cc/dep=5/gov=3",
+            "advmod/dep=6/gov=50",
+            "punct/dep=7/gov=50",
+            "mark/dep=8/gov=39",
+            "det/dep=9/gov=10",
+            "nsubj/dep=10/gov=39",
+            "mark/dep=11/gov=16",
+            "compound/dep=12/gov=13",
+            "nsubj/dep=13/gov=16",
+            "aux/dep=14/gov=16",
+            "advmod/dep=15/gov=16",
+            "dep/dep=16/gov=10",
+            "case/dep=17/gov=19",
+            "compound/dep=18/gov=19",
+            "dep/dep=19/gov=16",
+            "case/dep=20/gov=27",
+            "det/dep=21/gov=22",
+            "nmod:poss/dep=22/gov=27",
+            "case/dep=23/gov=22",
+            "amod/dep=24/gov=27",
+            "punct/dep=25/gov=27",
+            "compound/dep=26/gov=27",
+            "nmod:as/dep=27/gov=19",
+            "nsubj/dep=27/gov=32",
+            "punct/dep=28/gov=27",
+            "punct/dep=29/gov=27",
+            "dobj/dep=30/gov=32",
+            "ref/dep=31/gov=27",
+            "acl:relcl/dep=32/gov=27",
+            "punct/dep=33/gov=19",
+            "cc/dep=34/gov=19",
+            "mark/dep=35/gov=37",
+            "cc/dep=36/gov=37",
+            "dep/dep=37/gov=16",
+            "conj:and/dep=37/gov=19",
+            "dep/dep=38/gov=37",
+            "dep/dep=39/gov=50",
+            "mark/dep=40/gov=48",
+            "nsubj/dep=41/gov=48",
+            "aux/dep=42/gov=48",
+            "cop/dep=43/gov=48",
+            "det/dep=44/gov=48",
+            "amod/dep=45/gov=48",
+            "dep/dep=46/gov=45",
+            "amod/dep=47/gov=48",
+            "ccomp/dep=48/gov=39",
+            "punct/dep=49/gov=50",
+            "conj:nor/dep=50/gov=3",
+            "mark/dep=51/gov=63",
+            "case/dep=52/gov=54",
+            "det/dep=53/gov=54",
+            "nmod:at/dep=54/gov=63",
+            "cc/dep=55/gov=63",
+            "case/dep=56/gov=58",
+            "det/dep=57/gov=58",
+            "nmod:in/dep=58/gov=63",
+            "det/dep=59/gov=60",
+            "nsubj/dep=60/gov=63",
+            "nsubj/dep=60/gov=63",
+            "aux/dep=61/gov=63",
+            "advmod/dep=62/gov=63",
+            "ccomp/dep=63/gov=50",
+            "ccomp/dep=63/gov=50",
+            "conj:and/dep=63/gov=63",
+            "dobj/dep=64/gov=63",
+            "punct/dep=65/gov=63",
+            "mark/dep=66/gov=69",
+            "nsubj/dep=67/gov=69",
+            "aux/dep=68/gov=69",
+            "advcl:while/dep=69/gov=63",
+            "case/dep=70/gov=71",
+            "nmod:as/dep=71/gov=69",
+            "punct/dep=72/gov=3"
+        ],
+        "words": [
+            "But",
+            "this",
+            "is",
+            "neither",
+            "here",
+            "nor",
+            "there",
+            ",",
+            "because",
+            "the",
+            "fact",
+            "that",
+            "Randy",
+            "Bauer",
+            "is",
+            "already",
+            "talking",
+            "about",
+            "Beatriz",
+            "Marinello",
+            "as",
+            "the",
+            "USCF",
+            "'s",
+            "new",
+            "``",
+            "move",
+            "coordinator",
+            "''",
+            ",",
+            "whatever",
+            "that",
+            "involves",
+            ",",
+            "and",
+            "whether",
+            "or",
+            "not",
+            "it",
+            "means",
+            "that",
+            "she",
+            "would",
+            "be",
+            "the",
+            "de",
+            "facto",
+            "interim",
+            "ED",
+            ",",
+            "means",
+            "that",
+            "at",
+            "some",
+            "level",
+            "and",
+            "in",
+            "some",
+            "form",
+            "these",
+            "discussions",
+            "HAVE",
+            "already",
+            "taken",
+            "place",
+            ",",
+            "while",
+            "Marinello",
+            "is",
+            "serving",
+            "as",
+            "President",
+            "."
+        ],
+        "pos-tags": [
+            "CC",
+            "DT",
+            "VBZ",
+            "DT",
+            "RB",
+            "CC",
+            "RB",
+            ",",
+            "IN",
+            "DT",
+            "NN",
+            "IN",
+            "NNP",
+            "NNP",
+            "VBZ",
+            "RB",
+            "VBG",
+            "IN",
+            "NNP",
+            "NNP",
+            "IN",
+            "DT",
+            "NNP",
+            "POS",
+            "JJ",
+            "``",
+            "NN",
+            "NN",
+            "''",
+            ",",
+            "WDT",
+            "WDT",
+            "VBZ",
+            ",",
+            "CC",
+            "IN",
+            "CC",
+            "RB",
+            "PRP",
+            "VBZ",
+            "IN",
+            "PRP",
+            "MD",
+            "VB",
+            "DT",
+            "FW",
+            "FW",
+            "JJ",
+            "NNP",
+            ",",
+            "VBZ",
+            "IN",
+            "IN",
+            "DT",
+            "NN",
+            "CC",
+            "IN",
+            "DT",
+            "NN",
+            "DT",
+            "NNS",
+            "VBP",
+            "RB",
+            "VBN",
+            "NN",
+            ",",
+            "IN",
+            "NNP",
+            "VBZ",
+            "VBG",
+            "IN",
+            "NNP",
+            "."
+        ],
+        "lemma": [
+            "but",
+            "this",
+            "be",
+            "neither",
+            "here",
+            "nor",
+            "there",
+            ",",
+            "because",
+            "the",
+            "fact",
+            "that",
+            "Randy",
+            "Bauer",
+            "be",
+            "already",
+            "talk",
+            "about",
+            "Beatriz",
+            "Marinello",
+            "as",
+            "the",
+            "USCF",
+            "'s",
+            "new",
+            "``",
+            "move",
+            "coordinator",
+            "''",
+            ",",
+            "whatever",
+            "that",
+            "involve",
+            ",",
+            "and",
+            "whether",
+            "or",
+            "not",
+            "it",
+            "mean",
+            "that",
+            "she",
+            "would",
+            "be",
+            "the",
+            "de",
+            "facto",
+            "interim",
+            "ED",
+            ",",
+            "mean",
+            "that",
+            "at",
+            "some",
+            "level",
+            "and",
+            "in",
+            "some",
+            "form",
+            "these",
+            "discussion",
+            "have",
+            "already",
+            "take",
+            "place",
+            ",",
+            "while",
+            "Marinello",
+            "be",
+            "serve",
+            "as",
+            "President",
+            "."
+        ],
+        "parse": "(ROOT\n  (S (CC But)\n    (S\n      (NP (DT this))\n      (VP (VBZ is)\n        (NP (DT neither))\n        (ADVP (RB here))))\n    (CC nor)\n    (S\n      (ADVP (RB there))\n      (, ,)\n      (SBAR (IN because)\n        (S\n          (NP\n            (NP (DT the) (NN fact))\n            (SBAR (IN that)\n              (S\n                (NP (NNP Randy) (NNP Bauer))\n                (VP (VBZ is)\n                  (ADVP (RB already))\n                  (VP (VBG talking)\n                    (UCP\n                      (PP (IN about)\n                        (NP\n                          (NP (NNP Beatriz) (NNP Marinello))\n                          (PP (IN as)\n                            (NP\n                              (NP\n                                (NP (DT the) (NNP USCF) (POS 's))\n                                (JJ new) (`` ``) (NN move) (NN coordinator) ('' ''))\n                              (, ,)\n                              (SBAR\n                                (WHNP (WDT whatever))\n                                (S\n                                  (NP (WDT that))\n                                  (VP (VBZ involves))))))))\n                      (, ,)\n                      (CC and)\n                      (SBAR (IN whether)\n                        (FRAG (CC or)\n                          (RB not)\n                          (NP (PRP it))))))))))\n          (VP (VBZ means)\n            (SBAR (IN that)\n              (S\n                (NP (PRP she))\n                (VP (MD would)\n                  (VP (VB be)\n                    (NP (DT the)\n                      (ADJP (FW de) (FW facto))\n                      (NP (JJ interim) (NNP ED))))))))))\n      (, ,)\n      (VP (VBZ means)\n        (SBAR (IN that)\n          (S\n            (PP\n              (PP (IN at)\n                (NP (DT some) (NN level)))\n              (CC and)\n              (PP (IN in)\n                (NP (DT some) (NN form))))\n            (NP (DT these) (NNS discussions))\n            (VP (VBP HAVE)\n              (ADVP (RB already))\n              (VP (VBN taken)\n                (NP (NN place))\n                (, ,)\n                (SBAR (IN while)\n                  (S\n                    (NP (NNP Marinello))\n                    (VP (VBZ is)\n                      (VP (VBG serving)\n                        (PP (IN as)\n                          (NP (NNP President)))))))))))))\n    (. .)))"
+    },
+    {
+        "sentence": "I mean, it's conceivable that the other six have all gotten together in Marinello's absence and drafted her, but it also seems pretty clear that she has agreed to do it, and, if all the rumors are true and she steps down, it will be so that she can take on these new responsibilities.",
+        "golden-entity-mentions": [
+            {
+                "text": "Marinello",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "Marinello",
+                    "start": 15,
+                    "end": 16
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E15-39",
+                "start": 15,
+                "end": 16
+            },
+            {
+                "text": "her",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "her",
+                    "start": 20,
+                    "end": 21
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E15-40",
+                "start": 20,
+                "end": 21
+            },
+            {
+                "text": "she",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "she",
+                    "start": 29,
+                    "end": 30
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E15-41",
+                "start": 29,
+                "end": 30
+            },
+            {
+                "text": "she",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "she",
+                    "start": 45,
+                    "end": 46
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E15-42",
+                "start": 45,
+                "end": 46
+            },
+            {
+                "text": "she",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "she",
+                    "start": 54,
+                    "end": 55
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E15-167",
+                "start": 54,
+                "end": 55
+            },
+            {
+                "text": "the other six",
+                "entity-type": "PER:Group",
+                "head": {
+                    "text": "six",
+                    "start": 9,
+                    "end": 10
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E19-38",
+                "start": 7,
+                "end": 10
+            },
+            {
+                "text": "I",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "I",
+                    "start": 0,
+                    "end": 1
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E67-37",
+                "start": 0,
+                "end": 1
+            },
+            {
+                "text": "new",
+                "entity-type": "TIM:time",
+                "head": {
+                    "text": "new",
+                    "start": 59,
+                    "end": 60
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-T8-1",
+                "start": 59,
+                "end": 60
+            }
+        ],
+        "golden-event-mentions": [
+            {
+                "trigger": {
+                    "text": "drafted",
+                    "start": 19,
+                    "end": 20
+                },
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "entity-type": "PER:Individual",
+                        "text": "her",
+                        "start": 20,
+                        "end": 21
+                    }
+                ],
+                "event_type": "Personnel:Start-Position"
+            },
+            {
+                "trigger": {
+                    "text": "steps down",
+                    "start": 46,
+                    "end": 48
+                },
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "entity-type": "PER:Individual",
+                        "text": "she",
+                        "start": 45,
+                        "end": 46
+                    }
+                ],
+                "event_type": "Personnel:End-Position"
+            }
+        ],
+        "stanford-colcc": [
+            "ROOT/dep=1/gov=-1",
+            "nsubj/dep=0/gov=1",
+            "punct/dep=2/gov=5",
+            "nsubj/dep=3/gov=5",
+            "cop/dep=4/gov=5",
+            "dep/dep=5/gov=1",
+            "mark/dep=6/gov=12",
+            "det/dep=7/gov=9",
+            "amod/dep=8/gov=9",
+            "nsubj/dep=9/gov=12",
+            "nsubj/dep=9/gov=19",
+            "aux/dep=10/gov=12",
+            "advmod/dep=11/gov=12",
+            "ccomp/dep=12/gov=5",
+            "advmod/dep=13/gov=12",
+            "case/dep=14/gov=17",
+            "nmod:poss/dep=15/gov=17",
+            "case/dep=16/gov=15",
+            "nmod:in/dep=17/gov=12",
+            "cc/dep=18/gov=12",
+            "ccomp/dep=19/gov=5",
+            "conj:and/dep=19/gov=12",
+            "dobj/dep=20/gov=19",
+            "punct/dep=21/gov=5",
+            "cc/dep=22/gov=1",
+            "nsubj/dep=23/gov=25",
+            "advmod/dep=24/gov=25",
+            "conj:but/dep=25/gov=1",
+            "advmod/dep=26/gov=27",
+            "xcomp/dep=27/gov=25",
+            "mark/dep=28/gov=31",
+            "nsubj/dep=29/gov=31",
+            "nsubj:xsubj/dep=29/gov=33",
+            "aux/dep=30/gov=31",
+            "ccomp/dep=31/gov=25",
+            "mark/dep=32/gov=33",
+            "xcomp/dep=33/gov=31",
+            "dobj/dep=34/gov=33",
+            "punct/dep=35/gov=25",
+            "cc/dep=36/gov=25",
+            "punct/dep=37/gov=51",
+            "mark/dep=38/gov=43",
+            "det:predet/dep=39/gov=41",
+            "det/dep=40/gov=41",
+            "nsubj/dep=41/gov=43",
+            "cop/dep=42/gov=43",
+            "advcl:if/dep=43/gov=51",
+            "cc/dep=44/gov=43",
+            "nsubj/dep=45/gov=46",
+            "conj:and/dep=46/gov=43",
+            "advcl:if/dep=46/gov=51",
+            "advmod/dep=47/gov=46",
+            "punct/dep=48/gov=51",
+            "nsubj/dep=49/gov=51",
+            "aux/dep=50/gov=51",
+            "conj:but/dep=51/gov=1",
+            "conj:and/dep=51/gov=25",
+            "advmod/dep=52/gov=51",
+            "mark/dep=53/gov=56",
+            "nsubj/dep=54/gov=56",
+            "aux/dep=55/gov=56",
+            "ccomp/dep=56/gov=51",
+            "case/dep=57/gov=60",
+            "det/dep=58/gov=60",
+            "amod/dep=59/gov=60",
+            "nmod:on/dep=60/gov=56",
+            "punct/dep=61/gov=1"
+        ],
+        "words": [
+            "I",
+            "mean",
+            ",",
+            "it",
+            "'s",
+            "conceivable",
+            "that",
+            "the",
+            "other",
+            "six",
+            "have",
+            "all",
+            "gotten",
+            "together",
+            "in",
+            "Marinello",
+            "'s",
+            "absence",
+            "and",
+            "drafted",
+            "her",
+            ",",
+            "but",
+            "it",
+            "also",
+            "seems",
+            "pretty",
+            "clear",
+            "that",
+            "she",
+            "has",
+            "agreed",
+            "to",
+            "do",
+            "it",
+            ",",
+            "and",
+            ",",
+            "if",
+            "all",
+            "the",
+            "rumors",
+            "are",
+            "true",
+            "and",
+            "she",
+            "steps",
+            "down",
+            ",",
+            "it",
+            "will",
+            "be",
+            "so",
+            "that",
+            "she",
+            "can",
+            "take",
+            "on",
+            "these",
+            "new",
+            "responsibilities",
+            "."
+        ],
+        "pos-tags": [
+            "PRP",
+            "VBP",
+            ",",
+            "PRP",
+            "VBZ",
+            "JJ",
+            "IN",
+            "DT",
+            "JJ",
+            "CD",
+            "VBP",
+            "DT",
+            "VBN",
+            "RB",
+            "IN",
+            "NNP",
+            "POS",
+            "NN",
+            "CC",
+            "VBD",
+            "PRP",
+            ",",
+            "CC",
+            "PRP",
+            "RB",
+            "VBZ",
+            "RB",
+            "JJ",
+            "IN",
+            "PRP",
+            "VBZ",
+            "VBN",
+            "TO",
+            "VB",
+            "PRP",
+            ",",
+            "CC",
+            ",",
+            "IN",
+            "DT",
+            "DT",
+            "NNS",
+            "VBP",
+            "JJ",
+            "CC",
+            "PRP",
+            "VBZ",
+            "RB",
+            ",",
+            "PRP",
+            "MD",
+            "VB",
+            "RB",
+            "IN",
+            "PRP",
+            "MD",
+            "VB",
+            "IN",
+            "DT",
+            "JJ",
+            "NNS",
+            "."
+        ],
+        "lemma": [
+            "I",
+            "mean",
+            ",",
+            "it",
+            "be",
+            "conceivable",
+            "that",
+            "the",
+            "other",
+            "six",
+            "have",
+            "all",
+            "get",
+            "together",
+            "in",
+            "Marinello",
+            "'s",
+            "absence",
+            "and",
+            "draft",
+            "she",
+            ",",
+            "but",
+            "it",
+            "also",
+            "seem",
+            "pretty",
+            "clear",
+            "that",
+            "she",
+            "have",
+            "agree",
+            "to",
+            "do",
+            "it",
+            ",",
+            "and",
+            ",",
+            "if",
+            "all",
+            "the",
+            "rumor",
+            "be",
+            "true",
+            "and",
+            "she",
+            "step",
+            "down",
+            ",",
+            "it",
+            "will",
+            "be",
+            "so",
+            "that",
+            "she",
+            "can",
+            "take",
+            "on",
+            "these",
+            "new",
+            "responsibility",
+            "."
+        ],
+        "parse": "(ROOT\n  (S\n    (S\n      (NP (PRP I))\n      (VP (VBP mean)))\n    (PRN (, ,)\n      (S\n        (NP (PRP it))\n        (VP (VBZ 's)\n          (ADJP (JJ conceivable))\n          (SBAR (IN that)\n            (S\n              (NP (DT the) (JJ other) (CD six))\n              (VP\n                (VP (VBP have)\n                  (ADVP (DT all))\n                  (VP (VBN gotten)\n                    (ADVP (RB together))\n                    (PP (IN in)\n                      (NP\n                        (NP (NNP Marinello) (POS 's))\n                        (NN absence)))))\n                (CC and)\n                (VP (VBD drafted)\n                  (NP (PRP her))))))))\n      (, ,))\n    (CC but)\n    (S\n      (S\n        (NP (PRP it))\n        (ADVP (RB also))\n        (VP (VBZ seems)\n          (ADJP (RB pretty) (JJ clear))\n          (SBAR (IN that)\n            (S\n              (NP (PRP she))\n              (VP (VBZ has)\n                (VP (VBN agreed)\n                  (S\n                    (VP (TO to)\n                      (VP (VB do)\n                        (NP (PRP it)))))))))))\n      (, ,)\n      (CC and)\n      (S (, ,)\n        (SBAR (IN if)\n          (S\n            (S\n              (NP (DT all) (DT the) (NNS rumors))\n              (VP (VBP are)\n                (ADJP (JJ true))))\n            (CC and)\n            (S\n              (NP (PRP she))\n              (VP (VBZ steps)\n                (ADVP (RB down))))))\n        (, ,)\n        (NP (PRP it))\n        (VP (MD will)\n          (VP (VB be)\n            (ADVP (RB so))\n            (SBAR (IN that)\n              (S\n                (NP (PRP she))\n                (VP (MD can)\n                  (VP (VB take)\n                    (PP (IN on)\n                      (NP (DT these) (JJ new) (NNS responsibilities)))))))))))\n    (. .)))"
+    },
+    {
+        "sentence": "- asking the Interim ED to designate someone from the New Windsor staff to act as move coordinator",
+        "golden-entity-mentions": [
+            {
+                "text": "the Interim ED",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "ED",
+                    "start": 4,
+                    "end": 5
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E25-66",
+                "start": 2,
+                "end": 5
+            },
+            {
+                "text": "someone from the New Windsor staff",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "someone",
+                    "start": 7,
+                    "end": 8
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E28-67",
+                "start": 7,
+                "end": 13
+            },
+            {
+                "text": "move coordinator",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "coordinator",
+                    "start": 17,
+                    "end": 18
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E28-70",
+                "start": 16,
+                "end": 18
+            },
+            {
+                "text": "the New Windsor staff",
+                "entity-type": "PER:Group",
+                "head": {
+                    "text": "staff",
+                    "start": 12,
+                    "end": 13
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E29-68",
+                "start": 9,
+                "end": 13
+            },
+            {
+                "text": "New Windsor",
+                "entity-type": "GPE:Population-Center",
+                "head": {
+                    "text": "New Windsor",
+                    "start": 10,
+                    "end": 12
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E30-69",
+                "start": 10,
+                "end": 12
+            },
+            {
+                "text": "move coordinator",
+                "entity-type": "Job-Title",
+                "head": {
+                    "text": "move coordinator",
+                    "start": 16,
+                    "end": 18
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-V4-1",
+                "start": 16,
+                "end": 18
+            }
+        ],
+        "golden-event-mentions": [
+            {
+                "trigger": {
+                    "text": "designate",
+                    "start": 6,
+                    "end": 7
+                },
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "entity-type": "PER:Individual",
+                        "text": "someone from the New Windsor staff",
+                        "start": 7,
+                        "end": 13
+                    },
+                    {
+                        "role": "Position",
+                        "entity-type": "Job-Title",
+                        "text": "move coordinator",
+                        "start": 16,
+                        "end": 18
+                    }
+                ],
+                "event_type": "Personnel:Start-Position"
+            }
+        ],
+        "stanford-colcc": [
+            "ROOT/dep=1/gov=-1",
+            "punct/dep=0/gov=1",
+            "det/dep=2/gov=4",
+            "compound/dep=3/gov=4",
+            "dobj/dep=4/gov=1",
+            "nsubj:xsubj/dep=4/gov=6",
+            "mark/dep=5/gov=6",
+            "xcomp/dep=6/gov=1",
+            "dobj/dep=7/gov=6",
+            "case/dep=8/gov=12",
+            "det/dep=9/gov=12",
+            "compound/dep=10/gov=12",
+            "compound/dep=11/gov=12",
+            "nmod:from/dep=12/gov=6",
+            "mark/dep=13/gov=14",
+            "advcl:to/dep=14/gov=6",
+            "case/dep=15/gov=17",
+            "compound/dep=16/gov=17",
+            "nmod:as/dep=17/gov=14"
+        ],
+        "words": [
+            "-",
+            "asking",
+            "the",
+            "Interim",
+            "ED",
+            "to",
+            "designate",
+            "someone",
+            "from",
+            "the",
+            "New",
+            "Windsor",
+            "staff",
+            "to",
+            "act",
+            "as",
+            "move",
+            "coordinator"
+        ],
+        "pos-tags": [
+            ":",
+            "VBG",
+            "DT",
+            "NNP",
+            "NNP",
+            "TO",
+            "VB",
+            "NN",
+            "IN",
+            "DT",
+            "NNP",
+            "NNP",
+            "NN",
+            "TO",
+            "VB",
+            "IN",
+            "NN",
+            "NN"
+        ],
+        "lemma": [
+            "-",
+            "ask",
+            "the",
+            "Interim",
+            "ED",
+            "to",
+            "designate",
+            "someone",
+            "from",
+            "the",
+            "New",
+            "Windsor",
+            "staff",
+            "to",
+            "act",
+            "as",
+            "move",
+            "coordinator"
+        ],
+        "parse": "(ROOT\n  (PRN (: -)\n    (S\n      (VP (VBG asking)\n        (S\n          (NP (DT the) (NNP Interim) (NNP ED))\n          (VP (TO to)\n            (VP (VB designate)\n              (NP (NN someone))\n              (PP (IN from)\n                (NP (DT the) (NNP New) (NNP Windsor) (NN staff)))\n              (S\n                (VP (TO to)\n                  (VP (VB act)\n                    (PP (IN as)\n                      (NP (NN move) (NN coordinator)))))))))))))"
+    },
+    {
+        "sentence": "- asking the Interim ED to hire some other consultant with experience in office relocation to manage the job (there are such people)",
+        "golden-entity-mentions": [
+            {
+                "text": "the Interim ED",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "ED",
+                    "start": 4,
+                    "end": 5
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E25-71",
+                "start": 2,
+                "end": 5
+            },
+            {
+                "text": "some other consultant with experience in office relocation",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "consultant",
+                    "start": 9,
+                    "end": 10
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E32-72",
+                "start": 7,
+                "end": 15
+            },
+            {
+                "text": "such people",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "people",
+                    "start": 23,
+                    "end": 24
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E32-74",
+                "start": 22,
+                "end": 24
+            },
+            {
+                "text": "office",
+                "entity-type": "FAC:Subarea-Facility",
+                "head": {
+                    "text": "office",
+                    "start": 13,
+                    "end": 14
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E33-73",
+                "start": 13,
+                "end": 14
+            }
+        ],
+        "golden-event-mentions": [
+            {
+                "trigger": {
+                    "text": "hire",
+                    "start": 6,
+                    "end": 7
+                },
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "entity-type": "PER:Individual",
+                        "text": "some other consultant with experience in office relocation",
+                        "start": 7,
+                        "end": 15
+                    }
+                ],
+                "event_type": "Personnel:Start-Position"
+            }
+        ],
+        "stanford-colcc": [
+            "ROOT/dep=1/gov=-1",
+            "punct/dep=0/gov=1",
+            "det/dep=2/gov=4",
+            "compound/dep=3/gov=4",
+            "dobj/dep=4/gov=1",
+            "nsubj:xsubj/dep=4/gov=6",
+            "mark/dep=5/gov=6",
+            "xcomp/dep=6/gov=1",
+            "det/dep=7/gov=9",
+            "amod/dep=8/gov=9",
+            "dobj/dep=9/gov=6",
+            "case/dep=10/gov=11",
+            "nmod:with/dep=11/gov=6",
+            "case/dep=12/gov=14",
+            "compound/dep=13/gov=14",
+            "nmod:in/dep=14/gov=6",
+            "mark/dep=15/gov=16",
+            "advcl:to/dep=16/gov=6",
+            "det/dep=17/gov=18",
+            "dobj/dep=18/gov=16",
+            "punct/dep=19/gov=21",
+            "expl/dep=20/gov=21",
+            "dep/dep=21/gov=18",
+            "amod/dep=22/gov=23",
+            "nsubj/dep=23/gov=21",
+            "punct/dep=24/gov=21"
+        ],
+        "words": [
+            "-",
+            "asking",
+            "the",
+            "Interim",
+            "ED",
+            "to",
+            "hire",
+            "some",
+            "other",
+            "consultant",
+            "with",
+            "experience",
+            "in",
+            "office",
+            "relocation",
+            "to",
+            "manage",
+            "the",
+            "job",
+            "-LRB-",
+            "there",
+            "are",
+            "such",
+            "people",
+            "-RRB-"
+        ],
+        "pos-tags": [
+            ":",
+            "VBG",
+            "DT",
+            "NNP",
+            "NNP",
+            "TO",
+            "VB",
+            "DT",
+            "JJ",
+            "NN",
+            "IN",
+            "NN",
+            "IN",
+            "NN",
+            "NN",
+            "TO",
+            "VB",
+            "DT",
+            "NN",
+            "-LRB-",
+            "EX",
+            "VBP",
+            "JJ",
+            "NNS",
+            "-RRB-"
+        ],
+        "lemma": [
+            "-",
+            "ask",
+            "the",
+            "Interim",
+            "ED",
+            "to",
+            "hire",
+            "some",
+            "other",
+            "consultant",
+            "with",
+            "experience",
+            "in",
+            "office",
+            "relocation",
+            "to",
+            "manage",
+            "the",
+            "job",
+            "-lrb-",
+            "there",
+            "be",
+            "such",
+            "people",
+            "-rrb-"
+        ],
+        "parse": "(ROOT\n  (PRN (: -)\n    (S\n      (VP (VBG asking)\n        (S\n          (NP (DT the) (NNP Interim) (NNP ED))\n          (VP (TO to)\n            (VP (VB hire)\n              (NP (DT some) (JJ other) (NN consultant))\n              (PP (IN with)\n                (NP (NN experience)))\n              (PP (IN in)\n                (NP (NN office) (NN relocation)))\n              (S\n                (VP (TO to)\n                  (VP (VB manage)\n                    (NP\n                      (NP (DT the) (NN job))\n                      (PRN (-LRB- -LRB-)\n                        (S\n                          (NP (EX there))\n                          (VP (VBP are)\n                            (NP (JJ such) (NNS people))))\n                        (-RRB- -RRB-)))))))))))))"
+    },
+    {
+        "sentence": "One very bad argument that was made by Kevin Bachler, which to be fair was surrounded by arguably better ones, was that since this board was elected, we should let them do as they please.",
+        "golden-entity-mentions": [
+            {
+                "text": "this board",
+                "entity-type": "PER:Group",
+                "head": {
+                    "text": "board",
+                    "start": 26,
+                    "end": 27
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E1-91",
+                "start": 25,
+                "end": 27
+            },
+            {
+                "text": "them",
+                "entity-type": "PER:Group",
+                "head": {
+                    "text": "them",
+                    "start": 33,
+                    "end": 34
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E1-92",
+                "start": 33,
+                "end": 34
+            },
+            {
+                "text": "they",
+                "entity-type": "PER:Group",
+                "head": {
+                    "text": "they",
+                    "start": 36,
+                    "end": 37
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E1-93",
+                "start": 36,
+                "end": 37
+            },
+            {
+                "text": "Kevin Bachler",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "Kevin Bachler",
+                    "start": 8,
+                    "end": 10
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E40-90",
+                "start": 8,
+                "end": 10
+            },
+            {
+                "text": "we",
+                "entity-type": "ORG:Sports",
+                "head": {
+                    "text": "we",
+                    "start": 30,
+                    "end": 31
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E51-169",
+                "start": 30,
+                "end": 31
+            }
+        ],
+        "golden-event-mentions": [
+            {
+                "trigger": {
+                    "text": "elected",
+                    "start": 28,
+                    "end": 29
+                },
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "entity-type": "PER:Group",
+                        "text": "this board",
+                        "start": 25,
+                        "end": 27
+                    }
+                ],
+                "event_type": "Personnel:Elect"
+            }
+        ],
+        "stanford-colcc": [
+            "ROOT/dep=16/gov=-1",
+            "nummod/dep=0/gov=3",
+            "advmod/dep=1/gov=2",
+            "amod/dep=2/gov=3",
+            "nsubjpass/dep=3/gov=6",
+            "nsubjpass/dep=3/gov=16",
+            "ref/dep=4/gov=3",
+            "auxpass/dep=5/gov=6",
+            "acl:relcl/dep=6/gov=3",
+            "case/dep=7/gov=9",
+            "compound/dep=8/gov=9",
+            "nmod:agent/dep=9/gov=6",
+            "nsubj/dep=9/gov=14",
+            "punct/dep=10/gov=9",
+            "ref/dep=11/gov=9",
+            "mark/dep=12/gov=14",
+            "cop/dep=13/gov=14",
+            "acl:relcl/dep=14/gov=9",
+            "auxpass/dep=15/gov=16",
+            "case/dep=17/gov=20",
+            "advmod/dep=18/gov=20",
+            "amod/dep=19/gov=20",
+            "nmod:agent/dep=20/gov=16",
+            "mark/dep=20/gov=32",
+            "punct/dep=21/gov=20",
+            "acl:relcl/dep=22/gov=20",
+            "ref/dep=23/gov=20",
+            "mark/dep=24/gov=28",
+            "det/dep=25/gov=26",
+            "nsubjpass/dep=26/gov=28",
+            "auxpass/dep=27/gov=28",
+            "advcl:since/dep=28/gov=32",
+            "punct/dep=29/gov=32",
+            "nsubj/dep=30/gov=32",
+            "aux/dep=31/gov=32",
+            "ccomp/dep=32/gov=22",
+            "nsubj/dep=33/gov=34",
+            "ccomp/dep=34/gov=32",
+            "mark/dep=35/gov=37",
+            "nsubj/dep=36/gov=37",
+            "advcl:as/dep=37/gov=34",
+            "punct/dep=38/gov=16"
+        ],
+        "words": [
+            "One",
+            "very",
+            "bad",
+            "argument",
+            "that",
+            "was",
+            "made",
+            "by",
+            "Kevin",
+            "Bachler",
+            ",",
+            "which",
+            "to",
+            "be",
+            "fair",
+            "was",
+            "surrounded",
+            "by",
+            "arguably",
+            "better",
+            "ones",
+            ",",
+            "was",
+            "that",
+            "since",
+            "this",
+            "board",
+            "was",
+            "elected",
+            ",",
+            "we",
+            "should",
+            "let",
+            "them",
+            "do",
+            "as",
+            "they",
+            "please",
+            "."
+        ],
+        "pos-tags": [
+            "CD",
+            "RB",
+            "JJ",
+            "NN",
+            "WDT",
+            "VBD",
+            "VBN",
+            "IN",
+            "NNP",
+            "NNP",
+            ",",
+            "WDT",
+            "TO",
+            "VB",
+            "JJ",
+            "VBD",
+            "VBN",
+            "IN",
+            "RB",
+            "JJR",
+            "NNS",
+            ",",
+            "VBD",
+            "IN",
+            "IN",
+            "DT",
+            "NN",
+            "VBD",
+            "VBN",
+            ",",
+            "PRP",
+            "MD",
+            "VB",
+            "PRP",
+            "VB",
+            "IN",
+            "PRP",
+            "VBP",
+            "."
+        ],
+        "lemma": [
+            "one",
+            "very",
+            "bad",
+            "argument",
+            "that",
+            "be",
+            "make",
+            "by",
+            "Kevin",
+            "Bachler",
+            ",",
+            "which",
+            "to",
+            "be",
+            "fair",
+            "be",
+            "surround",
+            "by",
+            "arguably",
+            "better",
+            "one",
+            ",",
+            "be",
+            "that",
+            "since",
+            "this",
+            "board",
+            "be",
+            "elect",
+            ",",
+            "we",
+            "should",
+            "let",
+            "they",
+            "do",
+            "as",
+            "they",
+            "please",
+            "."
+        ],
+        "parse": "(ROOT\n  (S\n    (NP\n      (NP (CD One)\n        (ADJP (RB very) (JJ bad))\n        (NN argument))\n      (SBAR\n        (WHNP (WDT that))\n        (S\n          (VP (VBD was)\n            (VP (VBN made)\n              (PP (IN by)\n                (NP\n                  (NP (NNP Kevin) (NNP Bachler))\n                  (, ,)\n                  (SBAR\n                    (WHNP (WDT which))\n                    (S\n                      (VP (TO to)\n                        (VP (VB be)\n                          (ADJP (JJ fair)))))))))))))\n    (VP (VBD was)\n      (VP (VBN surrounded)\n        (PP (IN by)\n          (NP\n            (NP (RB arguably) (JJR better) (NNS ones))\n            (, ,)\n            (SBAR\n              (S\n                (VP (VBD was)\n                  (SBAR (IN that)\n                    (S\n                      (SBAR (IN since)\n                        (S\n                          (NP (DT this) (NN board))\n                          (VP (VBD was)\n                            (VP (VBN elected)))))\n                      (, ,)\n                      (NP (PRP we))\n                      (VP (MD should)\n                        (VP (VB let)\n                          (S\n                            (NP (PRP them))\n                            (VP (VB do)\n                              (SBAR (IN as)\n                                (S\n                                  (NP (PRP they))\n                                  (VP (VBP please)))))))))))))))))\n    (. .)))"
+    },
+    {
+        "sentence": "Which is to say that there might as well not be bylaws, ethics standards, laws, etc., since an elected board is not bound by any of them.",
+        "golden-entity-mentions": [
+            {
+                "text": "an elected board",
+                "entity-type": "PER:Group",
+                "head": {
+                    "text": "board",
+                    "start": 23,
+                    "end": 24
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E41-94",
+                "start": 21,
+                "end": 24
+            }
+        ],
+        "golden-event-mentions": [
+            {
+                "trigger": {
+                    "text": "elected",
+                    "start": 22,
+                    "end": 23
+                },
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "entity-type": "PER:Group",
+                        "text": "an elected board",
+                        "start": 21,
+                        "end": 24
+                    }
+                ],
+                "event_type": "Personnel:Elect"
+            }
+        ],
+        "stanford-colcc": [
+            "ROOT/dep=26/gov=-1",
+            "nsubj/dep=0/gov=1",
+            "nsubj:xsubj/dep=0/gov=3",
+            "advcl/dep=1/gov=26",
+            "mark/dep=2/gov=3",
+            "xcomp/dep=3/gov=1",
+            "mark/dep=4/gov=11",
+            "expl/dep=5/gov=11",
+            "aux/dep=6/gov=11",
+            "advmod/dep=7/gov=11",
+            "mwe/dep=8/gov=7",
+            "neg/dep=9/gov=11",
+            "cop/dep=10/gov=11",
+            "ccomp/dep=11/gov=3",
+            "punct/dep=12/gov=26",
+            "compound/dep=13/gov=14",
+            "nsubjpass/dep=14/gov=26",
+            "punct/dep=15/gov=14",
+            "appos/dep=16/gov=14",
+            "punct/dep=17/gov=14",
+            "dep/dep=18/gov=14",
+            "punct/dep=19/gov=14",
+            "case/dep=20/gov=23",
+            "det/dep=21/gov=23",
+            "amod/dep=22/gov=23",
+            "nmod:since/dep=23/gov=14",
+            "auxpass/dep=24/gov=26",
+            "neg/dep=25/gov=26",
+            "case/dep=27/gov=28",
+            "nmod:agent/dep=28/gov=26",
+            "case/dep=29/gov=30",
+            "nmod:of/dep=30/gov=28",
+            "punct/dep=31/gov=26"
+        ],
+        "words": [
+            "Which",
+            "is",
+            "to",
+            "say",
+            "that",
+            "there",
+            "might",
+            "as",
+            "well",
+            "not",
+            "be",
+            "bylaws",
+            ",",
+            "ethics",
+            "standards",
+            ",",
+            "laws",
+            ",",
+            "etc.",
+            ",",
+            "since",
+            "an",
+            "elected",
+            "board",
+            "is",
+            "not",
+            "bound",
+            "by",
+            "any",
+            "of",
+            "them",
+            "."
+        ],
+        "pos-tags": [
+            "WDT",
+            "VBZ",
+            "TO",
+            "VB",
+            "IN",
+            "EX",
+            "MD",
+            "RB",
+            "RB",
+            "RB",
+            "VB",
+            "NNS",
+            ",",
+            "NNS",
+            "NNS",
+            ",",
+            "NNS",
+            ",",
+            "FW",
+            ",",
+            "IN",
+            "DT",
+            "VBN",
+            "NN",
+            "VBZ",
+            "RB",
+            "VBN",
+            "IN",
+            "DT",
+            "IN",
+            "PRP",
+            "."
+        ],
+        "lemma": [
+            "which",
+            "be",
+            "to",
+            "say",
+            "that",
+            "there",
+            "might",
+            "as",
+            "well",
+            "not",
+            "be",
+            "bylaw",
+            ",",
+            "ethic",
+            "standard",
+            ",",
+            "law",
+            ",",
+            "etc.",
+            ",",
+            "since",
+            "a",
+            "elect",
+            "board",
+            "be",
+            "not",
+            "bind",
+            "by",
+            "any",
+            "of",
+            "they",
+            "."
+        ],
+        "parse": "(ROOT\n  (S\n    (SBAR\n      (WHNP (WDT Which))\n      (S\n        (VP (VBZ is)\n          (S\n            (VP (TO to)\n              (VP (VB say)\n                (SBAR (IN that)\n                  (S\n                    (NP (EX there))\n                    (VP (MD might)\n                      (ADVP (RB as) (RB well))\n                      (RB not)\n                      (VP (VB be)\n                        (NP (NNS bylaws))))))))))))\n    (, ,)\n    (NP\n      (NP\n        (NP\n          (NP (NNS ethics) (NNS standards))\n          (, ,)\n          (NP (NNS laws)))\n        (, ,) (FW etc.) (, ,))\n      (PP (IN since)\n        (NP (DT an) (VBN elected) (NN board))))\n    (VP (VBZ is) (RB not)\n      (VP (VBN bound)\n        (PP (IN by)\n          (NP\n            (NP (DT any))\n            (PP (IN of)\n              (NP (PRP them)))))))\n    (. .)))"
+    },
+    {
+        "sentence": "But if we are going to talk about realism, here is another realistic concern: I predict that, if, in fact, the rumors about the agenda for the Florida meeting prove true, and Marinello resigns as President and is hired as move coordinator, the immediate result of this is that Sam Sloan will file another lawsuit (or amend his current complaint) charging the USCF EB members with self-dealing, violation of the USCF's own bylaws, and every other thing, report us to the IRS, and demand that all USCF moneys which might be used to paid Marinello be frozen.",
+        "golden-entity-mentions": [
+            {
+                "text": "USCF EB",
+                "entity-type": "PER:Group",
+                "head": {
+                    "text": "EB",
+                    "start": 72,
+                    "end": 73
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E1-125",
+                "start": 71,
+                "end": 73
+            },
+            {
+                "text": "Marinello",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "Marinello",
+                    "start": 38,
+                    "end": 39
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E15-117",
+                "start": 38,
+                "end": 39
+            },
+            {
+                "text": "President",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "President",
+                    "start": 41,
+                    "end": 42
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E15-118",
+                "start": 41,
+                "end": 42
+            },
+            {
+                "text": "move coordinator",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "coordinator",
+                    "start": 47,
+                    "end": 48
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E15-119",
+                "start": 46,
+                "end": 48
+            },
+            {
+                "text": "Marinello",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "Marinello",
+                    "start": 108,
+                    "end": 109
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E15-133",
+                "start": 108,
+                "end": 109
+            },
+            {
+                "text": "we",
+                "entity-type": "PER:Group",
+                "head": {
+                    "text": "we",
+                    "start": 2,
+                    "end": 3
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E20-114",
+                "start": 2,
+                "end": 3
+            },
+            {
+                "text": "Sam Sloan",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "Sam Sloan",
+                    "start": 56,
+                    "end": 58
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E43-120",
+                "start": 56,
+                "end": 58
+            },
+            {
+                "text": "his",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "his",
+                    "start": 65,
+                    "end": 66
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E43-121",
+                "start": 65,
+                "end": 66
+            },
+            {
+                "text": "Florida",
+                "entity-type": "GPE:State-or-Province",
+                "head": {
+                    "text": "Florida",
+                    "start": 32,
+                    "end": 33
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E48-116",
+                "start": 32,
+                "end": 33
+            },
+            {
+                "text": "USCF",
+                "entity-type": "ORG:Sports",
+                "head": {
+                    "text": "USCF",
+                    "start": 71,
+                    "end": 72
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E51-123",
+                "start": 71,
+                "end": 72
+            },
+            {
+                "text": "the USCF's own",
+                "entity-type": "ORG:Sports",
+                "head": {
+                    "text": "own",
+                    "start": 82,
+                    "end": 83
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E51-128",
+                "start": 79,
+                "end": 83
+            },
+            {
+                "text": "USCF",
+                "entity-type": "ORG:Sports",
+                "head": {
+                    "text": "USCF",
+                    "start": 80,
+                    "end": 81
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E51-129",
+                "start": 80,
+                "end": 81
+            },
+            {
+                "text": "us",
+                "entity-type": "ORG:Sports",
+                "head": {
+                    "text": "us",
+                    "start": 91,
+                    "end": 92
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E51-130",
+                "start": 91,
+                "end": 92
+            },
+            {
+                "text": "USCF",
+                "entity-type": "ORG:Sports",
+                "head": {
+                    "text": "USCF",
+                    "start": 100,
+                    "end": 101
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E51-132",
+                "start": 100,
+                "end": 101
+            },
+            {
+                "text": "the USCF EB members",
+                "entity-type": "PER:Group",
+                "head": {
+                    "text": "members",
+                    "start": 73,
+                    "end": 74
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E52-124",
+                "start": 70,
+                "end": 74
+            },
+            {
+                "text": "self",
+                "entity-type": "PER:Group",
+                "head": {
+                    "text": "self",
+                    "start": 75,
+                    "end": 76
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E52-126",
+                "start": 75,
+                "end": 76
+            },
+            {
+                "text": "the IRS",
+                "entity-type": "ORG:Government",
+                "head": {
+                    "text": "IRS",
+                    "start": 94,
+                    "end": 95
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E55-131",
+                "start": 93,
+                "end": 95
+            },
+            {
+                "text": "I",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "I",
+                    "start": 16,
+                    "end": 17
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-E67-115",
+                "start": 16,
+                "end": 17
+            },
+            {
+                "text": "President",
+                "entity-type": "Job-Title",
+                "head": {
+                    "text": "President",
+                    "start": 41,
+                    "end": 42
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-V2-1",
+                "start": 41,
+                "end": 42
+            },
+            {
+                "text": "move coordinator",
+                "entity-type": "Job-Title",
+                "head": {
+                    "text": "move coordinator",
+                    "start": 46,
+                    "end": 48
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-V3-1",
+                "start": 46,
+                "end": 48
+            },
+            {
+                "text": "self-dealing, violation of the USCF's own bylaws, and every other thing",
+                "entity-type": "Crime",
+                "head": {
+                    "text": "self-dealing, violation of the USCF's own bylaws, and every other thing",
+                    "start": 75,
+                    "end": 89
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-V6-1",
+                "start": 75,
+                "end": 89
+            },
+            {
+                "text": "current",
+                "entity-type": "TIM:time",
+                "head": {
+                    "text": "current",
+                    "start": 66,
+                    "end": 67
+                },
+                "entity_id": "rec.games.chess.politics_20041217.2111-T15-1",
+                "start": 66,
+                "end": 67
+            }
+        ],
+        "golden-event-mentions": [
+            {
+                "trigger": {
+                    "text": "hired",
+                    "start": 44,
+                    "end": 45
+                },
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "entity-type": "PER:Individual",
+                        "text": "Marinello",
+                        "start": 38,
+                        "end": 39
+                    },
+                    {
+                        "role": "Place",
+                        "entity-type": "GPE:State-or-Province",
+                        "text": "Florida",
+                        "start": 32,
+                        "end": 33
+                    },
+                    {
+                        "role": "Entity",
+                        "entity-type": "ORG:Sports",
+                        "text": "the USCF's own",
+                        "start": 79,
+                        "end": 83
+                    },
+                    {
+                        "role": "Position",
+                        "entity-type": "Job-Title",
+                        "text": "move coordinator",
+                        "start": 46,
+                        "end": 48
+                    }
+                ],
+                "event_type": "Personnel:Start-Position"
+            },
+            {
+                "trigger": {
+                    "text": "resigns",
+                    "start": 39,
+                    "end": 40
+                },
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "entity-type": "PER:Individual",
+                        "text": "Marinello",
+                        "start": 38,
+                        "end": 39
+                    },
+                    {
+                        "role": "Place",
+                        "entity-type": "GPE:State-or-Province",
+                        "text": "Florida",
+                        "start": 32,
+                        "end": 33
+                    },
+                    {
+                        "role": "Position",
+                        "entity-type": "Job-Title",
+                        "text": "President",
+                        "start": 41,
+                        "end": 42
+                    }
+                ],
+                "event_type": "Personnel:End-Position"
+            },
+            {
+                "trigger": {
+                    "text": "paid",
+                    "start": 107,
+                    "end": 108
+                },
+                "arguments": [
+                    {
+                        "role": "Giver",
+                        "entity-type": "ORG:Sports",
+                        "text": "USCF",
+                        "start": 100,
+                        "end": 101
+                    },
+                    {
+                        "role": "Recipient",
+                        "entity-type": "PER:Individual",
+                        "text": "Marinello",
+                        "start": 108,
+                        "end": 109
+                    }
+                ],
+                "event_type": "Transaction:Transfer-Money"
+            },
+            {
+                "trigger": {
+                    "text": "meeting",
+                    "start": 33,
+                    "end": 34
+                },
+                "arguments": [
+                    {
+                        "role": "Place",
+                        "entity-type": "GPE:State-or-Province",
+                        "text": "Florida",
+                        "start": 32,
+                        "end": 33
+                    }
+                ],
+                "event_type": "Contact:Meet"
+            },
+            {
+                "trigger": {
+                    "text": "lawsuit",
+                    "start": 61,
+                    "end": 62
+                },
+                "arguments": [
+                    {
+                        "role": "Defendant",
+                        "entity-type": "PER:Group",
+                        "text": "the USCF EB members",
+                        "start": 70,
+                        "end": 74
+                    },
+                    {
+                        "role": "Crime",
+                        "entity-type": "Crime",
+                        "text": "self-dealing, violation of the USCF's own bylaws, and every other thing",
+                        "start": 75,
+                        "end": 89
+                    },
+                    {
+                        "role": "Plaintiff",
+                        "entity-type": "PER:Individual",
+                        "text": "Sam Sloan",
+                        "start": 56,
+                        "end": 58
+                    }
+                ],
+                "event_type": "Justice:Sue"
+            },
+            {
+                "trigger": {
+                    "text": "complaint",
+                    "start": 67,
+                    "end": 68
+                },
+                "arguments": [
+                    {
+                        "role": "Plaintiff",
+                        "entity-type": "PER:Individual",
+                        "text": "his",
+                        "start": 65,
+                        "end": 66
+                    },
+                    {
+                        "role": "Time-Within",
+                        "entity-type": "TIM:time",
+                        "text": "current",
+                        "start": 66,
+                        "end": 67
+                    }
+                ],
+                "event_type": "Justice:Sue"
+            },
+            {
+                "trigger": {
+                    "text": "charging",
+                    "start": 69,
+                    "end": 70
+                },
+                "arguments": [
+                    {
+                        "role": "Defendant",
+                        "entity-type": "PER:Group",
+                        "text": "the USCF EB members",
+                        "start": 70,
+                        "end": 74
+                    },
+                    {
+                        "role": "Prosecutor",
+                        "entity-type": "PER:Individual",
+                        "text": "Sam Sloan",
+                        "start": 56,
+                        "end": 58
+                    },
+                    {
+                        "role": "Crime",
+                        "entity-type": "Crime",
+                        "text": "self-dealing, violation of the USCF's own bylaws, and every other thing",
+                        "start": 75,
+                        "end": 89
+                    }
+                ],
+                "event_type": "Justice:Charge-Indict"
+            }
+        ],
+        "stanford-colcc": [
+            "ROOT/dep=90/gov=-1",
+            "cc/dep=0/gov=90",
+            "mark/dep=1/gov=4",
+            "nsubj/dep=2/gov=4",
+            "nsubj:xsubj/dep=2/gov=6",
+            "aux/dep=3/gov=4",
+            "advcl:if/dep=4/gov=90",
+            "mark/dep=5/gov=6",
+            "xcomp/dep=6/gov=4",
+            "case/dep=7/gov=8",
+            "nmod:about/dep=8/gov=6",
+            "punct/dep=9/gov=14",
+            "advmod/dep=10/gov=14",
+            "cop/dep=11/gov=14",
+            "det/dep=12/gov=14",
+            "amod/dep=13/gov=14",
+            "acl:relcl/dep=14/gov=8",
+            "punct/dep=15/gov=14",
+            "nsubj/dep=16/gov=17",
+            "dep/dep=17/gov=14",
+            "mark/dep=18/gov=54",
+            "punct/dep=19/gov=54",
+            "mark/dep=20/gov=34",
+            "punct/dep=21/gov=23",
+            "case/dep=22/gov=23",
+            "dep/dep=23/gov=34",
+            "punct/dep=24/gov=23",
+            "det/dep=25/gov=26",
+            "nsubj/dep=26/gov=34",
+            "case/dep=27/gov=29",
+            "det/dep=28/gov=29",
+            "nmod:about/dep=29/gov=26",
+            "case/dep=30/gov=33",
+            "det/dep=31/gov=33",
+            "compound/dep=32/gov=33",
+            "nmod:for/dep=33/gov=29",
+            "advcl:if/dep=34/gov=54",
+            "xcomp/dep=35/gov=34",
+            "punct/dep=36/gov=34",
+            "cc/dep=37/gov=34",
+            "nsubj/dep=38/gov=39",
+            "nsubjpass/dep=38/gov=44",
+            "conj:and/dep=39/gov=34",
+            "advcl:if/dep=39/gov=54",
+            "case/dep=40/gov=41",
+            "nmod:as/dep=41/gov=39",
+            "cc/dep=42/gov=39",
+            "auxpass/dep=43/gov=44",
+            "conj:and/dep=44/gov=34",
+            "conj:and/dep=44/gov=39",
+            "case/dep=45/gov=47",
+            "compound/dep=46/gov=47",
+            "nmod:as/dep=47/gov=44",
+            "punct/dep=48/gov=54",
+            "det/dep=49/gov=51",
+            "amod/dep=50/gov=51",
+            "nsubj/dep=51/gov=54",
+            "case/dep=52/gov=53",
+            "nmod:of/dep=53/gov=51",
+            "ccomp/dep=54/gov=17",
+            "mark/dep=55/gov=59",
+            "compound/dep=56/gov=57",
+            "nsubj/dep=57/gov=59",
+            "aux/dep=58/gov=59",
+            "ccomp/dep=59/gov=54",
+            "det/dep=60/gov=61",
+            "dobj/dep=61/gov=59",
+            "punct/dep=62/gov=64",
+            "cc/dep=63/gov=64",
+            "parataxis/dep=64/gov=14",
+            "nmod:poss/dep=65/gov=67",
+            "amod/dep=66/gov=67",
+            "dobj/dep=67/gov=64",
+            "punct/dep=68/gov=64",
+            "xcomp/dep=69/gov=6",
+            "det/dep=70/gov=73",
+            "compound/dep=71/gov=73",
+            "compound/dep=72/gov=73",
+            "dobj/dep=73/gov=69",
+            "case/dep=74/gov=75",
+            "nmod:with/dep=75/gov=69",
+            "punct/dep=76/gov=90",
+            "nsubj/dep=77/gov=90",
+            "case/dep=78/gov=83",
+            "det/dep=79/gov=80",
+            "nmod:poss/dep=80/gov=83",
+            "case/dep=81/gov=80",
+            "amod/dep=82/gov=83",
+            "nmod:of/dep=83/gov=77",
+            "punct/dep=84/gov=83",
+            "cc/dep=85/gov=83",
+            "det/dep=86/gov=88",
+            "amod/dep=87/gov=88",
+            "nmod:of/dep=88/gov=77",
+            "conj:and/dep=88/gov=83",
+            "punct/dep=89/gov=83",
+            "dobj/dep=91/gov=90",
+            "case/dep=92/gov=94",
+            "det/dep=93/gov=94",
+            "nmod:to/dep=94/gov=90",
+            "punct/dep=95/gov=94",
+            "cc/dep=96/gov=94",
+            "nmod:to/dep=97/gov=90",
+            "conj:and/dep=97/gov=94",
+            "mark/dep=98/gov=110",
+            "det/dep=99/gov=101",
+            "compound/dep=100/gov=101",
+            "nsubjpass/dep=101/gov=105",
+            "nsubjpass/dep=101/gov=110",
+            "ref/dep=102/gov=101",
+            "aux/dep=103/gov=105",
+            "auxpass/dep=104/gov=105",
+            "acl:relcl/dep=105/gov=101",
+            "case/dep=106/gov=108",
+            "amod/dep=107/gov=108",
+            "nmod:to/dep=108/gov=105",
+            "auxpass/dep=109/gov=110",
+            "ccomp/dep=110/gov=90",
+            "punct/dep=111/gov=90"
+        ],
+        "words": [
+            "But",
+            "if",
+            "we",
+            "are",
+            "going",
+            "to",
+            "talk",
+            "about",
+            "realism",
+            ",",
+            "here",
+            "is",
+            "another",
+            "realistic",
+            "concern",
+            ":",
+            "I",
+            "predict",
+            "that",
+            ",",
+            "if",
+            ",",
+            "in",
+            "fact",
+            ",",
+            "the",
+            "rumors",
+            "about",
+            "the",
+            "agenda",
+            "for",
+            "the",
+            "Florida",
+            "meeting",
+            "prove",
+            "true",
+            ",",
+            "and",
+            "Marinello",
+            "resigns",
+            "as",
+            "President",
+            "and",
+            "is",
+            "hired",
+            "as",
+            "move",
+            "coordinator",
+            ",",
+            "the",
+            "immediate",
+            "result",
+            "of",
+            "this",
+            "is",
+            "that",
+            "Sam",
+            "Sloan",
+            "will",
+            "file",
+            "another",
+            "lawsuit",
+            "-LRB-",
+            "or",
+            "amend",
+            "his",
+            "current",
+            "complaint",
+            "-RRB-",
+            "charging",
+            "the",
+            "USCF",
+            "EB",
+            "members",
+            "with",
+            "self-dealing",
+            ",",
+            "violation",
+            "of",
+            "the",
+            "USCF",
+            "'s",
+            "own",
+            "bylaws",
+            ",",
+            "and",
+            "every",
+            "other",
+            "thing",
+            ",",
+            "report",
+            "us",
+            "to",
+            "the",
+            "IRS",
+            ",",
+            "and",
+            "demand",
+            "that",
+            "all",
+            "USCF",
+            "moneys",
+            "which",
+            "might",
+            "be",
+            "used",
+            "to",
+            "paid",
+            "Marinello",
+            "be",
+            "frozen",
+            "."
+        ],
+        "pos-tags": [
+            "CC",
+            "IN",
+            "PRP",
+            "VBP",
+            "VBG",
+            "TO",
+            "VB",
+            "IN",
+            "NN",
+            ",",
+            "RB",
+            "VBZ",
+            "DT",
+            "JJ",
+            "NN",
+            ":",
+            "PRP",
+            "VBP",
+            "IN",
+            ",",
+            "IN",
+            ",",
+            "IN",
+            "NN",
+            ",",
+            "DT",
+            "NNS",
+            "IN",
+            "DT",
+            "NN",
+            "IN",
+            "DT",
+            "NNP",
+            "NN",
+            "VBP",
+            "JJ",
+            ",",
+            "CC",
+            "NNP",
+            "VBZ",
+            "IN",
+            "NNP",
+            "CC",
+            "VBZ",
+            "VBN",
+            "IN",
+            "NN",
+            "NN",
+            ",",
+            "DT",
+            "JJ",
+            "NN",
+            "IN",
+            "DT",
+            "VBZ",
+            "IN",
+            "NNP",
+            "NNP",
+            "MD",
+            "VB",
+            "DT",
+            "NN",
+            "-LRB-",
+            "CC",
+            "VB",
+            "PRP$",
+            "JJ",
+            "NN",
+            "-RRB-",
+            "VBG",
+            "DT",
+            "NNP",
+            "NNP",
+            "NNS",
+            "IN",
+            "NN",
+            ",",
+            "NN",
+            "IN",
+            "DT",
+            "NNP",
+            "POS",
+            "JJ",
+            "NNS",
+            ",",
+            "CC",
+            "DT",
+            "JJ",
+            "NN",
+            ",",
+            "VBP",
+            "PRP",
+            "TO",
+            "DT",
+            "NNP",
+            ",",
+            "CC",
+            "NN",
+            "IN",
+            "DT",
+            "NNP",
+            "NNS",
+            "WDT",
+            "MD",
+            "VB",
+            "VBN",
+            "TO",
+            "VBN",
+            "NNP",
+            "VB",
+            "VBN",
+            "."
+        ],
+        "lemma": [
+            "but",
+            "if",
+            "we",
+            "be",
+            "go",
+            "to",
+            "talk",
+            "about",
+            "realism",
+            ",",
+            "here",
+            "be",
+            "another",
+            "realistic",
+            "concern",
+            ":",
+            "I",
+            "predict",
+            "that",
+            ",",
+            "if",
+            ",",
+            "in",
+            "fact",
+            ",",
+            "the",
+            "rumor",
+            "about",
+            "the",
+            "agenda",
+            "for",
+            "the",
+            "Florida",
+            "meeting",
+            "prove",
+            "true",
+            ",",
+            "and",
+            "Marinello",
+            "resign",
+            "as",
+            "President",
+            "and",
+            "be",
+            "hire",
+            "as",
+            "move",
+            "coordinator",
+            ",",
+            "the",
+            "immediate",
+            "result",
+            "of",
+            "this",
+            "be",
+            "that",
+            "Sam",
+            "Sloan",
+            "will",
+            "file",
+            "another",
+            "lawsuit",
+            "-lrb-",
+            "or",
+            "amend",
+            "he",
+            "current",
+            "complaint",
+            "-rrb-",
+            "charge",
+            "the",
+            "USCF",
+            "EB",
+            "member",
+            "with",
+            "self-dealing",
+            ",",
+            "violation",
+            "of",
+            "the",
+            "USCF",
+            "'s",
+            "own",
+            "bylaw",
+            ",",
+            "and",
+            "every",
+            "other",
+            "thing",
+            ",",
+            "report",
+            "we",
+            "to",
+            "the",
+            "IRS",
+            ",",
+            "and",
+            "demand",
+            "that",
+            "all",
+            "USCF",
+            "money",
+            "which",
+            "might",
+            "be",
+            "use",
+            "to",
+            "pay",
+            "Marinello",
+            "be",
+            "freeze",
+            "."
+        ],
+        "parse": "(ROOT\n  (S (CC But)\n    (SBAR (IN if)\n      (S\n        (NP (PRP we))\n        (VP (VBP are)\n          (VP (VBG going)\n            (S\n              (VP (TO to)\n                (VP (VB talk)\n                  (PP (IN about)\n                    (NP\n                      (NP (NN realism))\n                      (SBAR\n                        (S (, ,)\n                          (ADVP (RB here))\n                          (VP (VBZ is)\n                            (NP\n                              (NP (DT another) (JJ realistic) (NN concern))\n                              (: :)\n                              (S\n                                (NP (PRP I))\n                                (VP (VBP predict)\n                                  (SBAR (IN that) (, ,)\n                                    (S\n                                      (SBAR (IN if)\n                                        (S\n                                          (PRN (, ,)\n                                            (PP (IN in)\n                                              (NP (NN fact)))\n                                            (, ,))\n                                          (S\n                                            (NP\n                                              (NP (DT the) (NNS rumors))\n                                              (PP (IN about)\n                                                (NP\n                                                  (NP (DT the) (NN agenda))\n                                                  (PP (IN for)\n                                                    (NP (DT the) (NNP Florida) (NN meeting))))))\n                                            (VP (VBP prove)\n                                              (ADJP (JJ true))))\n                                          (, ,)\n                                          (CC and)\n                                          (S\n                                            (NP (NNP Marinello))\n                                            (VP\n                                              (VP (VBZ resigns)\n                                                (PP (IN as)\n                                                  (NP (NNP President))))\n                                              (CC and)\n                                              (VP (VBZ is)\n                                                (VP (VBN hired)\n                                                  (PP (IN as)\n                                                    (NP (NN move) (NN coordinator)))))))))\n                                      (, ,)\n                                      (NP\n                                        (NP (DT the) (JJ immediate) (NN result))\n                                        (PP (IN of)\n                                          (NP (DT this))))\n                                      (VP (VBZ is)\n                                        (SBAR (IN that)\n                                          (S\n                                            (NP (NNP Sam) (NNP Sloan))\n                                            (VP (MD will)\n                                              (VP (VB file)\n                                                (NP (DT another) (NN lawsuit)))))))))))))\n                          (PRN (-LRB- -LRB-)\n                            (CC or)\n                            (S\n                              (VP (VB amend)\n                                (NP (PRP$ his) (JJ current) (NN complaint))))\n                            (-RRB- -RRB-))))))\n                  (S\n                    (VP (VBG charging)\n                      (NP (DT the) (NNP USCF) (NNP EB) (NNS members))\n                      (PP (IN with)\n                        (NP (NN self-dealing))))))))))))\n    (, ,)\n    (NP\n      (NP (NN violation))\n      (PP (IN of)\n        (NP\n          (NP\n            (NP (DT the) (NNP USCF) (POS 's))\n            (JJ own) (NNS bylaws))\n          (, ,)\n          (CC and)\n          (NP (DT every) (JJ other) (NN thing))\n          (, ,))))\n    (VP (VBP report)\n      (NP (PRP us))\n      (PP (TO to)\n        (NP\n          (NP (DT the) (NNP IRS))\n          (, ,)\n          (CC and)\n          (NP (NN demand))))\n      (SBAR (IN that)\n        (S\n          (NP\n            (NP (DT all) (NNP USCF) (NNS moneys))\n            (SBAR\n              (WHNP (WDT which))\n              (S\n                (VP (MD might)\n                  (VP (VB be)\n                    (VP (VBN used)\n                      (PP (TO to)\n                        (NP (VBN paid) (NNP Marinello)))))))))\n          (VP (VB be)\n            (VP (VBN frozen))))))\n    (. .)))"
+    },
+    {
+        "sentence": "Take a look at any of the large student unions, they all pay their elected board members an honorarium, as do many of the large foundations.",
+        "golden-entity-mentions": [
+            {
+                "text": "the large student unions",
+                "entity-type": "ORG:Non-Governmental",
+                "head": {
+                    "text": "unions",
+                    "start": 9,
+                    "end": 10
+                },
+                "entity_id": "soc.org.nonprofit_20050218.1902-E81-144",
+                "start": 6,
+                "end": 10
+            },
+            {
+                "text": "their",
+                "entity-type": "ORG:Non-Governmental",
+                "head": {
+                    "text": "their",
+                    "start": 14,
+                    "end": 15
+                },
+                "entity_id": "soc.org.nonprofit_20050218.1902-E81-147",
+                "start": 14,
+                "end": 15
+            },
+            {
+                "text": "they all",
+                "entity-type": "ORG:Non-Governmental",
+                "head": {
+                    "text": "they",
+                    "start": 11,
+                    "end": 12
+                },
+                "entity_id": "soc.org.nonprofit_20050218.1902-E81-183",
+                "start": 11,
+                "end": 13
+            },
+            {
+                "text": "student",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "student",
+                    "start": 8,
+                    "end": 9
+                },
+                "entity_id": "soc.org.nonprofit_20050218.1902-E83-145",
+                "start": 8,
+                "end": 9
+            },
+            {
+                "text": "their elected board members",
+                "entity-type": "PER:Group",
+                "head": {
+                    "text": "members",
+                    "start": 17,
+                    "end": 18
+                },
+                "entity_id": "soc.org.nonprofit_20050218.1902-E84-148",
+                "start": 14,
+                "end": 18
+            },
+            {
+                "text": "board",
+                "entity-type": "PER:Group",
+                "head": {
+                    "text": "board",
+                    "start": 16,
+                    "end": 17
+                },
+                "entity_id": "soc.org.nonprofit_20050218.1902-E85-149",
+                "start": 16,
+                "end": 17
+            },
+            {
+                "text": "the large foundations",
+                "entity-type": "ORG:Non-Governmental",
+                "head": {
+                    "text": "foundations",
+                    "start": 27,
+                    "end": 28
+                },
+                "entity_id": "soc.org.nonprofit_20050218.1902-E86-151",
+                "start": 25,
+                "end": 28
+            },
+            {
+                "text": "many of the large foundations",
+                "entity-type": "ORG:Non-Governmental",
+                "head": {
+                    "text": "many",
+                    "start": 23,
+                    "end": 24
+                },
+                "entity_id": "soc.org.nonprofit_20050218.1902-E87-146",
+                "start": 23,
+                "end": 28
+            }
+        ],
+        "golden-event-mentions": [
+            {
+                "trigger": {
+                    "text": "elected",
+                    "start": 15,
+                    "end": 16
+                },
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "entity-type": "PER:Group",
+                        "text": "their elected board members",
+                        "start": 14,
+                        "end": 18
+                    },
+                    {
+                        "role": "Entity",
+                        "entity-type": "ORG:Non-Governmental",
+                        "text": "their",
+                        "start": 14,
+                        "end": 15
+                    }
+                ],
+                "event_type": "Personnel:Elect"
+            },
+            {
+                "trigger": {
+                    "text": "pay",
+                    "start": 13,
+                    "end": 14
+                },
+                "arguments": [
+                    {
+                        "role": "Recipient",
+                        "entity-type": "PER:Group",
+                        "text": "their elected board members",
+                        "start": 14,
+                        "end": 18
+                    }
+                ],
+                "event_type": "Transaction:Transfer-Money"
+            }
+        ],
+        "stanford-colcc": [
+            "ROOT/dep=13/gov=-1",
+            "ccomp/dep=0/gov=13",
+            "det/dep=1/gov=2",
+            "dobj/dep=2/gov=0",
+            "case/dep=3/gov=4",
+            "nmod:at/dep=4/gov=0",
+            "case/dep=5/gov=9",
+            "det/dep=6/gov=9",
+            "amod/dep=7/gov=9",
+            "compound/dep=8/gov=9",
+            "nmod:of/dep=9/gov=4",
+            "punct/dep=10/gov=13",
+            "nsubj/dep=11/gov=13",
+            "advmod/dep=12/gov=13",
+            "nmod:poss/dep=14/gov=17",
+            "amod/dep=15/gov=17",
+            "compound/dep=16/gov=17",
+            "xcomp/dep=17/gov=13",
+            "det/dep=18/gov=19",
+            "nmod:tmod/dep=19/gov=13",
+            "punct/dep=20/gov=19",
+            "mark/dep=21/gov=22",
+            "dep/dep=22/gov=19",
+            "det:qmod/dep=23/gov=27",
+            "mwe/dep=24/gov=23",
+            "det/dep=25/gov=27",
+            "amod/dep=26/gov=27",
+            "dobj/dep=27/gov=22",
+            "punct/dep=28/gov=13"
+        ],
+        "words": [
+            "Take",
+            "a",
+            "look",
+            "at",
+            "any",
+            "of",
+            "the",
+            "large",
+            "student",
+            "unions",
+            ",",
+            "they",
+            "all",
+            "pay",
+            "their",
+            "elected",
+            "board",
+            "members",
+            "an",
+            "honorarium",
+            ",",
+            "as",
+            "do",
+            "many",
+            "of",
+            "the",
+            "large",
+            "foundations",
+            "."
+        ],
+        "pos-tags": [
+            "VB",
+            "DT",
+            "NN",
+            "IN",
+            "DT",
+            "IN",
+            "DT",
+            "JJ",
+            "NN",
+            "NNS",
+            ",",
+            "PRP",
+            "DT",
+            "VBP",
+            "PRP$",
+            "VBN",
+            "NN",
+            "NNS",
+            "DT",
+            "NN",
+            ",",
+            "IN",
+            "VBP",
+            "JJ",
+            "IN",
+            "DT",
+            "JJ",
+            "NNS",
+            "."
+        ],
+        "lemma": [
+            "take",
+            "a",
+            "look",
+            "at",
+            "any",
+            "of",
+            "the",
+            "large",
+            "student",
+            "union",
+            ",",
+            "they",
+            "all",
+            "pay",
+            "they",
+            "elect",
+            "board",
+            "member",
+            "a",
+            "honorarium",
+            ",",
+            "as",
+            "do",
+            "many",
+            "of",
+            "the",
+            "large",
+            "foundation",
+            "."
+        ],
+        "parse": "(ROOT\n  (S\n    (S\n      (VP (VB Take)\n        (NP (DT a) (NN look))\n        (PP (IN at)\n          (NP\n            (NP (DT any))\n            (PP (IN of)\n              (NP (DT the) (JJ large) (NN student) (NNS unions)))))))\n    (, ,)\n    (NP (PRP they))\n    (ADVP (DT all))\n    (VP (VBP pay)\n      (S\n        (NP (PRP$ their) (VBN elected) (NN board) (NNS members)))\n      (NP-TMP\n        (NP (DT an) (NN honorarium))\n        (, ,)\n        (SBAR (IN as)\n          (S\n            (VP (VBP do)\n              (NP\n                (NP (JJ many))\n                (PP (IN of)\n                  (NP (DT the) (JJ large) (NNS foundations)))))))))\n    (. .)))"
+    },
+    {
+        "sentence": "I started here 4 weeks ago.",
+        "golden-entity-mentions": [
+            {
+                "text": "I",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "I",
+                    "start": 0,
+                    "end": 1
+                },
+                "entity_id": "TTRACY_20050223.1049-E12-102",
+                "start": 0,
+                "end": 1
+            },
+            {
+                "text": "here",
+                "entity-type": "ORG:Commercial",
+                "head": {
+                    "text": "here",
+                    "start": 2,
+                    "end": 3
+                },
+                "entity_id": "TTRACY_20050223.1049-E34-103",
+                "start": 2,
+                "end": 3
+            },
+            {
+                "text": "4 weeks ago",
+                "entity-type": "TIM:time",
+                "head": {
+                    "text": "4 weeks ago",
+                    "start": 3,
+                    "end": 6
+                },
+                "entity_id": "TTRACY_20050223.1049-T5-1",
+                "start": 3,
+                "end": 6
+            }
+        ],
+        "golden-event-mentions": [
+            {
+                "trigger": {
+                    "text": "started",
+                    "start": 1,
+                    "end": 2
+                },
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "entity-type": "PER:Individual",
+                        "text": "I",
+                        "start": 0,
+                        "end": 1
+                    },
+                    {
+                        "role": "Entity",
+                        "entity-type": "ORG:Commercial",
+                        "text": "here",
+                        "start": 2,
+                        "end": 3
+                    },
+                    {
+                        "role": "Time-Within",
+                        "entity-type": "TIM:time",
+                        "text": "4 weeks ago",
+                        "start": 3,
+                        "end": 6
+                    }
+                ],
+                "event_type": "Personnel:Start-Position"
+            }
+        ],
+        "stanford-colcc": [
+            "ROOT/dep=1/gov=-1",
+            "nsubj/dep=0/gov=1",
+            "advmod/dep=2/gov=1",
+            "nummod/dep=3/gov=4",
+            "nmod:npmod/dep=4/gov=5",
+            "advmod/dep=5/gov=1",
+            "punct/dep=6/gov=1"
+        ],
+        "words": [
+            "I",
+            "started",
+            "here",
+            "4",
+            "weeks",
+            "ago",
+            "."
+        ],
+        "pos-tags": [
+            "PRP",
+            "VBD",
+            "RB",
+            "CD",
+            "NNS",
+            "RB",
+            "."
+        ],
+        "lemma": [
+            "I",
+            "start",
+            "here",
+            "4",
+            "week",
+            "ago",
+            "."
+        ],
+        "parse": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP (VBD started)\n      (ADVP (RB here))\n      (ADVP\n        (NP (CD 4) (NNS weeks))\n        (RB ago)))\n    (. .)))"
+    },
+    {
+        "sentence": "convicted rapist and max factor heir andrew luster is back in california.",
+        "golden-entity-mentions": [
+            {
+                "text": "convicted rapist and max factor heir",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "rapist",
+                    "start": 1,
+                    "end": 2
+                },
+                "entity_id": "CNN_ENG_20030620_085840.7-E1-1",
+                "start": 0,
+                "end": 6
+            },
+            {
+                "text": "convicted rapist and max factor heir andrew luster",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "andrew luster",
+                    "start": 6,
+                    "end": 8
+                },
+                "entity_id": "CNN_ENG_20030620_085840.7-E1-2",
+                "start": 0,
+                "end": 8
+            },
+            {
+                "text": "convicted rapist and max factor heir",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "heir",
+                    "start": 5,
+                    "end": 6
+                },
+                "entity_id": "CNN_ENG_20030620_085840.7-E1-3",
+                "start": 0,
+                "end": 6
+            },
+            {
+                "text": "max factor",
+                "entity-type": "ORG:Commercial",
+                "head": {
+                    "text": "max factor",
+                    "start": 3,
+                    "end": 5
+                },
+                "entity_id": "CNN_ENG_20030620_085840.7-E4-4",
+                "start": 3,
+                "end": 5
+            },
+            {
+                "text": "california",
+                "entity-type": "GPE:State-or-Province",
+                "head": {
+                    "text": "california",
+                    "start": 11,
+                    "end": 12
+                },
+                "entity_id": "CNN_ENG_20030620_085840.7-E5-5",
+                "start": 11,
+                "end": 12
+            }
+        ],
+        "golden-event-mentions": [
+            {
+                "trigger": {
+                    "text": "convicted",
+                    "start": 0,
+                    "end": 1
+                },
+                "arguments": [
+                    {
+                        "role": "Defendant",
+                        "entity-type": "PER:Individual",
+                        "text": "convicted rapist and max factor heir andrew luster",
+                        "start": 0,
+                        "end": 8
+                    }
+                ],
+                "event_type": "Justice:Convict"
+            }
+        ],
+        "stanford-colcc": [
+            "ROOT/dep=11/gov=-1",
+            "amod/dep=0/gov=1",
+            "nsubj/dep=1/gov=11",
+            "cc/dep=2/gov=1",
+            "compound/dep=3/gov=7",
+            "compound/dep=4/gov=7",
+            "compound/dep=5/gov=7",
+            "compound/dep=6/gov=7",
+            "conj:and/dep=7/gov=1",
+            "nsubj/dep=7/gov=11",
+            "cop/dep=8/gov=11",
+            "advmod/dep=9/gov=11",
+            "case/dep=10/gov=11",
+            "punct/dep=12/gov=11"
+        ],
+        "words": [
+            "convicted",
+            "rapist",
+            "and",
+            "max",
+            "factor",
+            "heir",
+            "andrew",
+            "luster",
+            "is",
+            "back",
+            "in",
+            "california",
+            "."
+        ],
+        "pos-tags": [
+            "VBN",
+            "NN",
+            "CC",
+            "NN",
+            "NN",
+            "NN",
+            "NN",
+            "NN",
+            "VBZ",
+            "RB",
+            "IN",
+            "NN",
+            "."
+        ],
+        "lemma": [
+            "convict",
+            "rapist",
+            "and",
+            "max",
+            "factor",
+            "heir",
+            "andrew",
+            "luster",
+            "be",
+            "back",
+            "in",
+            "california",
+            "."
+        ],
+        "parse": "(ROOT\n  (S\n    (NP\n      (NP (VBN convicted) (NN rapist))\n      (CC and)\n      (NP (NN max) (NN factor) (NN heir) (NN andrew) (NN luster)))\n    (VP (VBZ is)\n      (ADVP (RB back))\n      (PP (IN in)\n        (NP (NN california))))\n    (. .)))"
+    },
+    {
+        "sentence": "In December 2001, a Manhattan jury convicted Sotheby's main shareholder and former chairman Alfred Taubman of entering into a price-fixing agreement with Christie's.",
+        "golden-entity-mentions": [
+            {
+                "text": "a Manhattan jury",
+                "entity-type": "PER:Group",
+                "head": {
+                    "text": "jury",
+                    "start": 6,
+                    "end": 7
+                },
+                "entity_id": "AFP_ENG_20030311.0491-E9-11",
+                "start": 4,
+                "end": 7
+            },
+            {
+                "text": "Manhattan",
+                "entity-type": "GPE:Population-Center",
+                "head": {
+                    "text": "Manhattan",
+                    "start": 5,
+                    "end": 6
+                },
+                "entity_id": "AFP_ENG_20030311.0491-E10-12",
+                "start": 5,
+                "end": 6
+            },
+            {
+                "text": "Sotheby's main shareholder and former chairman Alfred Taubman",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "Alfred Taubman",
+                    "start": 15,
+                    "end": 17
+                },
+                "entity_id": "AFP_ENG_20030311.0491-E11-13",
+                "start": 8,
+                "end": 17
+            },
+            {
+                "text": "Sotheby's main shareholder and former chairman",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "shareholder",
+                    "start": 11,
+                    "end": 12
+                },
+                "entity_id": "AFP_ENG_20030311.0491-E11-14",
+                "start": 8,
+                "end": 15
+            },
+            {
+                "text": "Sotheby's main shareholder and former chairman",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "chairman",
+                    "start": 14,
+                    "end": 15
+                },
+                "entity_id": "AFP_ENG_20030311.0491-E11-15",
+                "start": 8,
+                "end": 15
+            },
+            {
+                "text": "Sotheby's",
+                "entity-type": "ORG:Commercial",
+                "head": {
+                    "text": "Sotheby's",
+                    "start": 8,
+                    "end": 10
+                },
+                "entity_id": "AFP_ENG_20030311.0491-E21-36",
+                "start": 8,
+                "end": 10
+            },
+            {
+                "text": "Christie's",
+                "entity-type": "ORG:Commercial",
+                "head": {
+                    "text": "Christie's",
+                    "start": 24,
+                    "end": 26
+                },
+                "entity_id": "AFP_ENG_20030311.0491-E22-16",
+                "start": 24,
+                "end": 26
+            },
+            {
+                "text": "entering into a price-fixing agreement with Christie's",
+                "entity-type": "Crime",
+                "head": {
+                    "text": "entering into a price-fixing agreement with Christie's",
+                    "start": 18,
+                    "end": 26
+                },
+                "entity_id": "AFP_ENG_20030311.0491-V5-1",
+                "start": 18,
+                "end": 26
+            },
+            {
+                "text": "December 2001",
+                "entity-type": "TIM:time",
+                "head": {
+                    "text": "December 2001",
+                    "start": 1,
+                    "end": 3
+                },
+                "entity_id": "AFP_ENG_20030311.0491-T5-1",
+                "start": 1,
+                "end": 3
+            },
+            {
+                "text": "former",
+                "entity-type": "TIM:time",
+                "head": {
+                    "text": "former",
+                    "start": 13,
+                    "end": 14
+                },
+                "entity_id": "AFP_ENG_20030311.0491-T14-1",
+                "start": 13,
+                "end": 14
+            }
+        ],
+        "golden-event-mentions": [
+            {
+                "trigger": {
+                    "text": "convicted",
+                    "start": 7,
+                    "end": 8
+                },
+                "arguments": [
+                    {
+                        "role": "Defendant",
+                        "entity-type": "PER:Individual",
+                        "text": "Sotheby's main shareholder and former chairman Alfred Taubman",
+                        "start": 8,
+                        "end": 17
+                    },
+                    {
+                        "role": "Crime",
+                        "entity-type": "Crime",
+                        "text": "entering into a price-fixing agreement with Christie's",
+                        "start": 18,
+                        "end": 26
+                    },
+                    {
+                        "role": "Place",
+                        "entity-type": "GPE:Population-Center",
+                        "text": "Manhattan",
+                        "start": 5,
+                        "end": 6
+                    },
+                    {
+                        "role": "Adjudicator",
+                        "entity-type": "PER:Group",
+                        "text": "a Manhattan jury",
+                        "start": 4,
+                        "end": 7
+                    },
+                    {
+                        "role": "Time-Within",
+                        "entity-type": "TIM:time",
+                        "text": "December 2001",
+                        "start": 1,
+                        "end": 3
+                    }
+                ],
+                "event_type": "Justice:Convict"
+            }
+        ],
+        "stanford-colcc": [
+            "ROOT/dep=7/gov=-1",
+            "case/dep=0/gov=1",
+            "nmod:in/dep=1/gov=7",
+            "nummod/dep=2/gov=1",
+            "punct/dep=3/gov=7",
+            "det/dep=4/gov=6",
+            "compound/dep=5/gov=6",
+            "nsubj/dep=6/gov=7",
+            "nmod:poss/dep=8/gov=11",
+            "case/dep=9/gov=8",
+            "amod/dep=10/gov=11",
+            "dobj/dep=11/gov=7",
+            "cc/dep=12/gov=11",
+            "amod/dep=13/gov=16",
+            "compound/dep=14/gov=16",
+            "compound/dep=15/gov=16",
+            "dobj/dep=16/gov=7",
+            "conj:and/dep=16/gov=11",
+            "mark/dep=17/gov=18",
+            "acl:of/dep=18/gov=16",
+            "case/dep=19/gov=22",
+            "det/dep=20/gov=22",
+            "amod/dep=21/gov=22",
+            "nmod:into/dep=22/gov=18",
+            "case/dep=23/gov=24",
+            "nmod:'s/dep=24/gov=18",
+            "case/dep=25/gov=24",
+            "punct/dep=26/gov=7"
+        ],
+        "words": [
+            "In",
+            "December",
+            "2001",
+            ",",
+            "a",
+            "Manhattan",
+            "jury",
+            "convicted",
+            "Sotheby",
+            "'s",
+            "main",
+            "shareholder",
+            "and",
+            "former",
+            "chairman",
+            "Alfred",
+            "Taubman",
+            "of",
+            "entering",
+            "into",
+            "a",
+            "price-fixing",
+            "agreement",
+            "with",
+            "Christie",
+            "'s",
+            "."
+        ],
+        "pos-tags": [
+            "IN",
+            "NNP",
+            "CD",
+            ",",
+            "DT",
+            "NNP",
+            "NN",
+            "VBN",
+            "NNP",
+            "POS",
+            "JJ",
+            "NN",
+            "CC",
+            "JJ",
+            "NN",
+            "NNP",
+            "NNP",
+            "IN",
+            "VBG",
+            "IN",
+            "DT",
+            "JJ",
+            "NN",
+            "IN",
+            "NNP",
+            "POS",
+            "."
+        ],
+        "lemma": [
+            "in",
+            "December",
+            "2001",
+            ",",
+            "a",
+            "Manhattan",
+            "jury",
+            "convict",
+            "Sotheby",
+            "'s",
+            "main",
+            "shareholder",
+            "and",
+            "former",
+            "chairman",
+            "Alfred",
+            "Taubman",
+            "of",
+            "enter",
+            "into",
+            "a",
+            "price-fixing",
+            "agreement",
+            "with",
+            "Christie",
+            "'s",
+            "."
+        ],
+        "parse": "(ROOT\n  (S\n    (PP (IN In)\n      (NP (NNP December) (CD 2001)))\n    (, ,)\n    (NP (DT a) (NNP Manhattan) (NN jury))\n    (VP (VBN convicted)\n      (NP\n        (NP\n          (NP (NNP Sotheby) (POS 's))\n          (JJ main) (NN shareholder))\n        (CC and)\n        (NP\n          (NP (JJ former) (NN chairman) (NNP Alfred) (NNP Taubman))\n          (PP (IN of)\n            (S\n              (VP (VBG entering)\n                (PP (IN into)\n                  (NP (DT a) (JJ price-fixing) (NN agreement)))\n                (PP (IN with)\n                  (NP (NNP Christie) (POS 's)))))))))\n    (. .)))"
+    },
+    {
+        "sentence": "In a statement, Diller -- who took on the \"provisional\" role at the top of Vivendi's US entertainment operations in December -- said his USA Interactive group will nonetheless remain a shareholder of Vivendi Universal Entertainment.",
+        "golden-entity-mentions": [
+            {
+                "text": "a shareholder of Vivendi Universal Entertainment",
+                "entity-type": "ORG:Entertainment",
+                "head": {
+                    "text": "shareholder",
+                    "start": 35,
+                    "end": 36
+                },
+                "entity_id": "AFP_ENG_20030319.0879-E1-82",
+                "start": 34,
+                "end": 40
+            },
+            {
+                "text": "his USA Interactive group",
+                "entity-type": "ORG:Entertainment",
+                "head": {
+                    "text": "group",
+                    "start": 30,
+                    "end": 31
+                },
+                "entity_id": "AFP_ENG_20030319.0879-E1-114",
+                "start": 27,
+                "end": 31
+            },
+            {
+                "text": "USA Interactive",
+                "entity-type": "ORG:Entertainment",
+                "head": {
+                    "text": "USA Interactive",
+                    "start": 28,
+                    "end": 30
+                },
+                "entity_id": "AFP_ENG_20030319.0879-E1-115",
+                "start": 28,
+                "end": 30
+            },
+            {
+                "text": "his",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "his",
+                    "start": 27,
+                    "end": 28
+                },
+                "entity_id": "AFP_ENG_20030319.0879-E4-97",
+                "start": 27,
+                "end": 28
+            },
+            {
+                "text": "Diller -- who took on the \"provisional\" role at the top of Vivendi's US entertainment operations in December",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "Diller",
+                    "start": 4,
+                    "end": 5
+                },
+                "entity_id": "AFP_ENG_20030319.0879-E4-110",
+                "start": 4,
+                "end": 25
+            },
+            {
+                "text": "who",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "who",
+                    "start": 6,
+                    "end": 7
+                },
+                "entity_id": "AFP_ENG_20030319.0879-E4-111",
+                "start": 6,
+                "end": 7
+            },
+            {
+                "text": "Vivendi's US entertainment operations",
+                "entity-type": "ORG:Entertainment",
+                "head": {
+                    "text": "operations",
+                    "start": 22,
+                    "end": 23
+                },
+                "entity_id": "AFP_ENG_20030319.0879-E5-87",
+                "start": 18,
+                "end": 23
+            },
+            {
+                "text": "US",
+                "entity-type": "GPE:Nation",
+                "head": {
+                    "text": "US",
+                    "start": 20,
+                    "end": 21
+                },
+                "entity_id": "AFP_ENG_20030319.0879-E11-113",
+                "start": 20,
+                "end": 21
+            },
+            {
+                "text": "Vivendi",
+                "entity-type": "ORG:Commercial",
+                "head": {
+                    "text": "Vivendi",
+                    "start": 18,
+                    "end": 19
+                },
+                "entity_id": "AFP_ENG_20030319.0879-E13-112",
+                "start": 18,
+                "end": 19
+            },
+            {
+                "text": "Vivendi Universal Entertainment",
+                "entity-type": "ORG:Entertainment",
+                "head": {
+                    "text": "Vivendi Universal Entertainment",
+                    "start": 37,
+                    "end": 40
+                },
+                "entity_id": "AFP_ENG_20030319.0879-E25-2",
+                "start": 37,
+                "end": 40
+            },
+            {
+                "text": "the \"provisional\" role",
+                "entity-type": "Job-Title",
+                "head": {
+                    "text": "the \"provisional\" role",
+                    "start": 9,
+                    "end": 14
+                },
+                "entity_id": "AFP_ENG_20030319.0879-V2-1",
+                "start": 9,
+                "end": 14
+            },
+            {
+                "text": "December",
+                "entity-type": "TIM:time",
+                "head": {
+                    "text": "December",
+                    "start": 24,
+                    "end": 25
+                },
+                "entity_id": "AFP_ENG_20030319.0879-T3-1",
+                "start": 24,
+                "end": 25
+            }
+        ],
+        "golden-event-mentions": [
+            {
+                "trigger": {
+                    "text": "took on",
+                    "start": 7,
+                    "end": 9
+                },
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "entity-type": "PER:Individual",
+                        "text": "Diller -- who took on the \"provisional\" role at the top of Vivendi's US entertainment operations in December",
+                        "start": 4,
+                        "end": 25
+                    },
+                    {
+                        "role": "Position",
+                        "entity-type": "Job-Title",
+                        "text": "the \"provisional\" role",
+                        "start": 9,
+                        "end": 14
+                    },
+                    {
+                        "role": "Time-Within",
+                        "entity-type": "TIM:time",
+                        "text": "December",
+                        "start": 24,
+                        "end": 25
+                    },
+                    {
+                        "role": "Entity",
+                        "entity-type": "ORG:Entertainment",
+                        "text": "Vivendi's US entertainment operations",
+                        "start": 18,
+                        "end": 23
+                    }
+                ],
+                "event_type": "Personnel:Start-Position"
+            }
+        ],
+        "stanford-colcc": [
+            "ROOT/dep=26/gov=-1",
+            "case/dep=0/gov=2",
+            "det/dep=1/gov=2",
+            "nmod:in/dep=2/gov=26",
+            "punct/dep=3/gov=26",
+            "nsubj/dep=4/gov=26",
+            "punct/dep=5/gov=7",
+            "nsubj/dep=6/gov=7",
+            "dep/dep=7/gov=4",
+            "compound:prt/dep=8/gov=7",
+            "det/dep=9/gov=13",
+            "punct/dep=10/gov=13",
+            "amod/dep=11/gov=13",
+            "punct/dep=12/gov=13",
+            "dobj/dep=13/gov=7",
+            "case/dep=14/gov=16",
+            "det/dep=15/gov=16",
+            "nmod:at/dep=16/gov=13",
+            "case/dep=17/gov=22",
+            "nmod:poss/dep=18/gov=22",
+            "case/dep=19/gov=18",
+            "compound/dep=20/gov=22",
+            "compound/dep=21/gov=22",
+            "nmod:of/dep=22/gov=16",
+            "case/dep=23/gov=24",
+            "nmod:in/dep=24/gov=7",
+            "punct/dep=25/gov=7",
+            "nmod:poss/dep=27/gov=30",
+            "compound/dep=28/gov=30",
+            "amod/dep=29/gov=30",
+            "nsubj/dep=30/gov=33",
+            "aux/dep=31/gov=33",
+            "advmod/dep=32/gov=33",
+            "ccomp/dep=33/gov=26",
+            "det/dep=34/gov=35",
+            "xcomp/dep=35/gov=33",
+            "case/dep=36/gov=39",
+            "compound/dep=37/gov=39",
+            "compound/dep=38/gov=39",
+            "nmod:of/dep=39/gov=35",
+            "punct/dep=40/gov=26"
+        ],
+        "words": [
+            "In",
+            "a",
+            "statement",
+            ",",
+            "Diller",
+            "--",
+            "who",
+            "took",
+            "on",
+            "the",
+            "``",
+            "provisional",
+            "''",
+            "role",
+            "at",
+            "the",
+            "top",
+            "of",
+            "Vivendi",
+            "'s",
+            "US",
+            "entertainment",
+            "operations",
+            "in",
+            "December",
+            "--",
+            "said",
+            "his",
+            "USA",
+            "Interactive",
+            "group",
+            "will",
+            "nonetheless",
+            "remain",
+            "a",
+            "shareholder",
+            "of",
+            "Vivendi",
+            "Universal",
+            "Entertainment",
+            "."
+        ],
+        "pos-tags": [
+            "IN",
+            "DT",
+            "NN",
+            ",",
+            "NNP",
+            ":",
+            "WP",
+            "VBD",
+            "RP",
+            "DT",
+            "``",
+            "JJ",
+            "''",
+            "NN",
+            "IN",
+            "DT",
+            "NN",
+            "IN",
+            "NNP",
+            "POS",
+            "NNP",
+            "NN",
+            "NNS",
+            "IN",
+            "NNP",
+            ":",
+            "VBD",
+            "PRP$",
+            "NNP",
+            "JJ",
+            "NN",
+            "MD",
+            "RB",
+            "VB",
+            "DT",
+            "NN",
+            "IN",
+            "NNP",
+            "NNP",
+            "NNP",
+            "."
+        ],
+        "lemma": [
+            "in",
+            "a",
+            "statement",
+            ",",
+            "Diller",
+            "--",
+            "who",
+            "take",
+            "on",
+            "the",
+            "``",
+            "provisional",
+            "''",
+            "role",
+            "at",
+            "the",
+            "top",
+            "of",
+            "Vivendi",
+            "'s",
+            "US",
+            "entertainment",
+            "operation",
+            "in",
+            "December",
+            "--",
+            "say",
+            "he",
+            "USA",
+            "interactive",
+            "group",
+            "will",
+            "nonetheless",
+            "remain",
+            "a",
+            "shareholder",
+            "of",
+            "Vivendi",
+            "Universal",
+            "Entertainment",
+            "."
+        ],
+        "parse": "(ROOT\n  (S\n    (PP (IN In)\n      (NP (DT a) (NN statement)))\n    (, ,)\n    (NP\n      (NP (NNP Diller))\n      (PRN (: --)\n        (SBAR\n          (WHNP (WP who))\n          (S\n            (VP (VBD took)\n              (PRT (RP on))\n              (NP\n                (NP (DT the) (`` ``) (JJ provisional) ('' '') (NN role))\n                (PP (IN at)\n                  (NP\n                    (NP (DT the) (NN top))\n                    (PP (IN of)\n                      (NP\n                        (NP (NNP Vivendi) (POS 's))\n                        (NNP US) (NN entertainment) (NNS operations))))))\n              (PP (IN in)\n                (NP (NNP December))))))\n        (: --)))\n    (VP (VBD said)\n      (SBAR\n        (S\n          (NP (PRP$ his) (NNP USA) (JJ Interactive) (NN group))\n          (VP (MD will)\n            (ADVP (RB nonetheless))\n            (VP (VB remain)\n              (NP\n                (NP (DT a) (NN shareholder))\n                (PP (IN of)\n                  (NP (NNP Vivendi) (NNP Universal) (NNP Entertainment)))))))))\n    (. .)))"
+    },
+    {
+        "sentence": "In Paris, the French media group said parent company chairman Jean-Rene Fourtou will replace Diller as chairman and chief executive of US unit.",
+        "golden-entity-mentions": [
+            {
+                "text": "US unit",
+                "entity-type": "ORG:Entertainment",
+                "head": {
+                    "text": "unit",
+                    "start": 23,
+                    "end": 24
+                },
+                "entity_id": "AFP_ENG_20030319.0879-E1-26",
+                "start": 22,
+                "end": 24
+            },
+            {
+                "text": "French",
+                "entity-type": "GPE:Nation",
+                "head": {
+                    "text": "French",
+                    "start": 4,
+                    "end": 5
+                },
+                "entity_id": "AFP_ENG_20030319.0879-E3-22",
+                "start": 4,
+                "end": 5
+            },
+            {
+                "text": "Diller",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "Diller",
+                    "start": 15,
+                    "end": 16
+                },
+                "entity_id": "AFP_ENG_20030319.0879-E4-25",
+                "start": 15,
+                "end": 16
+            },
+            {
+                "text": "Paris",
+                "entity-type": "GPE:Population-Center",
+                "head": {
+                    "text": "Paris",
+                    "start": 1,
+                    "end": 2
+                },
+                "entity_id": "AFP_ENG_20030319.0879-E7-20",
+                "start": 1,
+                "end": 2
+            },
+            {
+                "text": "parent company chairman Jean-Rene Fourtou",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "Jean-Rene Fourtou",
+                    "start": 11,
+                    "end": 13
+                },
+                "entity_id": "AFP_ENG_20030319.0879-E9-23",
+                "start": 8,
+                "end": 13
+            },
+            {
+                "text": "parent company chairman",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "chairman",
+                    "start": 10,
+                    "end": 11
+                },
+                "entity_id": "AFP_ENG_20030319.0879-E9-24",
+                "start": 8,
+                "end": 11
+            },
+            {
+                "text": "chairman and chief executive of US unit",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "executive",
+                    "start": 20,
+                    "end": 21
+                },
+                "entity_id": "AFP_ENG_20030319.0879-E9-85",
+                "start": 17,
+                "end": 24
+            },
+            {
+                "text": "chairman and chief executive of US unit",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "chairman",
+                    "start": 17,
+                    "end": 18
+                },
+                "entity_id": "AFP_ENG_20030319.0879-E9-86",
+                "start": 17,
+                "end": 24
+            },
+            {
+                "text": "US",
+                "entity-type": "GPE:Nation",
+                "head": {
+                    "text": "US",
+                    "start": 22,
+                    "end": 23
+                },
+                "entity_id": "AFP_ENG_20030319.0879-E11-27",
+                "start": 22,
+                "end": 23
+            },
+            {
+                "text": "the French media group",
+                "entity-type": "ORG:Commercial",
+                "head": {
+                    "text": "group",
+                    "start": 6,
+                    "end": 7
+                },
+                "entity_id": "AFP_ENG_20030319.0879-E13-21",
+                "start": 3,
+                "end": 7
+            },
+            {
+                "text": "parent company",
+                "entity-type": "ORG:Commercial",
+                "head": {
+                    "text": "company",
+                    "start": 9,
+                    "end": 10
+                },
+                "entity_id": "AFP_ENG_20030319.0879-E44-81",
+                "start": 8,
+                "end": 10
+            },
+            {
+                "text": "media",
+                "entity-type": "ORG:Media",
+                "head": {
+                    "text": "media",
+                    "start": 5,
+                    "end": 6
+                },
+                "entity_id": "AFP_ENG_20030319.0879-E51-92",
+                "start": 5,
+                "end": 6
+            },
+            {
+                "text": "chairman",
+                "entity-type": "Job-Title",
+                "head": {
+                    "text": "chairman",
+                    "start": 17,
+                    "end": 18
+                },
+                "entity_id": "AFP_ENG_20030319.0879-V6-1",
+                "start": 17,
+                "end": 18
+            },
+            {
+                "text": "chief executive of US unit",
+                "entity-type": "Job-Title",
+                "head": {
+                    "text": "chief executive of US unit",
+                    "start": 19,
+                    "end": 24
+                },
+                "entity_id": "AFP_ENG_20030319.0879-V7-1",
+                "start": 19,
+                "end": 24
+            }
+        ],
+        "golden-event-mentions": [
+            {
+                "trigger": {
+                    "text": "replace",
+                    "start": 14,
+                    "end": 15
+                },
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "entity-type": "PER:Individual",
+                        "text": "parent company chairman Jean-Rene Fourtou",
+                        "start": 8,
+                        "end": 13
+                    },
+                    {
+                        "role": "Place",
+                        "entity-type": "GPE:Population-Center",
+                        "text": "Paris",
+                        "start": 1,
+                        "end": 2
+                    },
+                    {
+                        "role": "Entity",
+                        "entity-type": "ORG:Entertainment",
+                        "text": "US unit",
+                        "start": 22,
+                        "end": 24
+                    },
+                    {
+                        "role": "Position",
+                        "entity-type": "Job-Title",
+                        "text": "chairman",
+                        "start": 17,
+                        "end": 18
+                    },
+                    {
+                        "role": "Position",
+                        "entity-type": "Job-Title",
+                        "text": "chief executive of US unit",
+                        "start": 19,
+                        "end": 24
+                    }
+                ],
+                "event_type": "Personnel:Start-Position"
+            }
+        ],
+        "stanford-colcc": [
+            "ROOT/dep=7/gov=-1",
+            "case/dep=0/gov=1",
+            "nmod:in/dep=1/gov=7",
+            "punct/dep=2/gov=7",
+            "det/dep=3/gov=6",
+            "amod/dep=4/gov=6",
+            "compound/dep=5/gov=6",
+            "nsubj/dep=6/gov=7",
+            "compound/dep=8/gov=12",
+            "compound/dep=9/gov=12",
+            "compound/dep=10/gov=12",
+            "compound/dep=11/gov=12",
+            "nsubj/dep=12/gov=14",
+            "aux/dep=13/gov=14",
+            "ccomp/dep=14/gov=7",
+            "dep/dep=15/gov=17",
+            "amod/dep=16/gov=17",
+            "dobj/dep=17/gov=14",
+            "cc/dep=18/gov=17",
+            "amod/dep=19/gov=20",
+            "dobj/dep=20/gov=14",
+            "conj:and/dep=20/gov=17",
+            "case/dep=21/gov=23",
+            "compound/dep=22/gov=23",
+            "nmod:of/dep=23/gov=17",
+            "punct/dep=24/gov=7"
+        ],
+        "words": [
+            "In",
+            "Paris",
+            ",",
+            "the",
+            "French",
+            "media",
+            "group",
+            "said",
+            "parent",
+            "company",
+            "chairman",
+            "Jean-Rene",
+            "Fourtou",
+            "will",
+            "replace",
+            "Diller",
+            "as",
+            "chairman",
+            "and",
+            "chief",
+            "executive",
+            "of",
+            "US",
+            "unit",
+            "."
+        ],
+        "pos-tags": [
+            "IN",
+            "NNP",
+            ",",
+            "DT",
+            "JJ",
+            "NNS",
+            "NN",
+            "VBD",
+            "NN",
+            "NN",
+            "NN",
+            "NNP",
+            "NNP",
+            "MD",
+            "VB",
+            "NNP",
+            "IN",
+            "NN",
+            "CC",
+            "JJ",
+            "NN",
+            "IN",
+            "NNP",
+            "NN",
+            "."
+        ],
+        "lemma": [
+            "in",
+            "Paris",
+            ",",
+            "the",
+            "french",
+            "media",
+            "group",
+            "say",
+            "parent",
+            "company",
+            "chairman",
+            "Jean-Rene",
+            "Fourtou",
+            "will",
+            "replace",
+            "Diller",
+            "as",
+            "chairman",
+            "and",
+            "chief",
+            "executive",
+            "of",
+            "US",
+            "unit",
+            "."
+        ],
+        "parse": "(ROOT\n  (S\n    (PP (IN In)\n      (NP (NNP Paris)))\n    (, ,)\n    (NP (DT the) (JJ French) (NNS media) (NN group))\n    (VP (VBD said)\n      (SBAR\n        (S\n          (NP (NN parent) (NN company) (NN chairman) (NNP Jean-Rene) (NNP Fourtou))\n          (VP (MD will)\n            (VP (VB replace)\n              (NP\n                (NP (NNP Diller)\n                  (NX\n                    (NX\n                      (ADJP (IN as))\n                      (NN chairman))\n                    (CC and)\n                    (NX (JJ chief) (NN executive))))\n                (PP (IN of)\n                  (NP (NNP US) (NN unit)))))))))\n    (. .)))"
+    },
+    {
+        "sentence": "Five of them are Indonesians convicted of murders while the other is an Indian drug offender, Ayodhya Prasad Chaubey.",
+        "golden-entity-mentions": [
+            {
+                "text": "the other",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "other",
+                    "start": 10,
+                    "end": 11
+                },
+                "entity_id": "AFP_ENG_20030327.0022-E2-9",
+                "start": 9,
+                "end": 11
+            },
+            {
+                "text": "Ayodhya Prasad Chaubey",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "Ayodhya Prasad Chaubey",
+                    "start": 17,
+                    "end": 20
+                },
+                "entity_id": "AFP_ENG_20030327.0022-E2-10",
+                "start": 17,
+                "end": 20
+            },
+            {
+                "text": "an Indian drug offender",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "offender",
+                    "start": 15,
+                    "end": 16
+                },
+                "entity_id": "AFP_ENG_20030327.0022-E2-51",
+                "start": 12,
+                "end": 16
+            },
+            {
+                "text": "Indian",
+                "entity-type": "GPE:Nation",
+                "head": {
+                    "text": "Indian",
+                    "start": 13,
+                    "end": 14
+                },
+                "entity_id": "AFP_ENG_20030327.0022-E30-46",
+                "start": 13,
+                "end": 14
+            },
+            {
+                "text": "Five of them",
+                "entity-type": "PER:Group",
+                "head": {
+                    "text": "Five",
+                    "start": 0,
+                    "end": 1
+                },
+                "entity_id": "AFP_ENG_20030327.0022-E32-47",
+                "start": 0,
+                "end": 3
+            },
+            {
+                "text": "Indonesians convicted of murders",
+                "entity-type": "PER:Group",
+                "head": {
+                    "text": "Indonesians",
+                    "start": 4,
+                    "end": 5
+                },
+                "entity_id": "AFP_ENG_20030327.0022-E32-49",
+                "start": 4,
+                "end": 8
+            },
+            {
+                "text": "them",
+                "entity-type": "PER:Group",
+                "head": {
+                    "text": "them",
+                    "start": 2,
+                    "end": 3
+                },
+                "entity_id": "AFP_ENG_20030327.0022-E37-42",
+                "start": 2,
+                "end": 3
+            },
+            {
+                "text": "murders",
+                "entity-type": "Crime",
+                "head": {
+                    "text": "murders",
+                    "start": 7,
+                    "end": 8
+                },
+                "entity_id": "AFP_ENG_20030327.0022-V2-1",
+                "start": 7,
+                "end": 8
+            },
+            {
+                "text": "drug",
+                "entity-type": "Crime",
+                "head": {
+                    "text": "drug",
+                    "start": 14,
+                    "end": 15
+                },
+                "entity_id": "AFP_ENG_20030327.0022-V3-1",
+                "start": 14,
+                "end": 15
+            }
+        ],
+        "golden-event-mentions": [
+            {
+                "trigger": {
+                    "text": "convicted",
+                    "start": 5,
+                    "end": 6
+                },
+                "arguments": [
+                    {
+                        "role": "Defendant",
+                        "entity-type": "PER:Group",
+                        "text": "Five of them",
+                        "start": 0,
+                        "end": 3
+                    },
+                    {
+                        "role": "Crime",
+                        "entity-type": "Crime",
+                        "text": "murders",
+                        "start": 7,
+                        "end": 8
+                    }
+                ],
+                "event_type": "Justice:Convict"
+            }
+        ],
+        "stanford-colcc": [
+            "ROOT/dep=4/gov=-1",
+            "det:qmod/dep=0/gov=2",
+            "mwe/dep=1/gov=0",
+            "nsubj/dep=2/gov=4",
+            "cop/dep=3/gov=4",
+            "acl/dep=5/gov=4",
+            "case/dep=6/gov=7",
+            "nmod:of/dep=7/gov=5",
+            "mark/dep=8/gov=15",
+            "det/dep=9/gov=10",
+            "nsubj/dep=10/gov=15",
+            "cop/dep=11/gov=15",
+            "det/dep=12/gov=15",
+            "amod/dep=13/gov=15",
+            "compound/dep=14/gov=15",
+            "advcl:while/dep=15/gov=5",
+            "punct/dep=16/gov=15",
+            "compound/dep=17/gov=19",
+            "compound/dep=18/gov=19",
+            "appos/dep=19/gov=15",
+            "punct/dep=20/gov=4"
+        ],
+        "words": [
+            "Five",
+            "of",
+            "them",
+            "are",
+            "Indonesians",
+            "convicted",
+            "of",
+            "murders",
+            "while",
+            "the",
+            "other",
+            "is",
+            "an",
+            "Indian",
+            "drug",
+            "offender",
+            ",",
+            "Ayodhya",
+            "Prasad",
+            "Chaubey",
+            "."
+        ],
+        "pos-tags": [
+            "CD",
+            "IN",
+            "PRP",
+            "VBP",
+            "NNPS",
+            "VBN",
+            "IN",
+            "NNS",
+            "IN",
+            "DT",
+            "JJ",
+            "VBZ",
+            "DT",
+            "JJ",
+            "NN",
+            "NN",
+            ",",
+            "NNP",
+            "NNP",
+            "NNP",
+            "."
+        ],
+        "lemma": [
+            "five",
+            "of",
+            "they",
+            "be",
+            "Indonesians",
+            "convict",
+            "of",
+            "murder",
+            "while",
+            "the",
+            "other",
+            "be",
+            "a",
+            "indian",
+            "drug",
+            "offender",
+            ",",
+            "Ayodhya",
+            "Prasad",
+            "Chaubey",
+            "."
+        ],
+        "parse": "(ROOT\n  (S\n    (NP\n      (NP (CD Five))\n      (PP (IN of)\n        (NP (PRP them))))\n    (VP (VBP are)\n      (NP\n        (NP (NNPS Indonesians))\n        (VP (VBN convicted)\n          (PP (IN of)\n            (NP (NNS murders)))\n          (SBAR (IN while)\n            (S\n              (NP (DT the) (JJ other))\n              (VP (VBZ is)\n                (NP\n                  (NP (DT an) (JJ Indian) (NN drug) (NN offender))\n                  (, ,)\n                  (NP (NNP Ayodhya) (NNP Prasad) (NNP Chaubey)))))))))\n    (. .)))"
+    },
+    {
+        "sentence": "Apart from those convicted of murder, 16 people are on death row for drug trafficking -- 11 foreigners, four Indonesians and a Dutch citizen of Chinese-Indonesian origin.",
+        "golden-entity-mentions": [
+            {
+                "text": "those convicted of murder",
+                "entity-type": "PER:Group",
+                "head": {
+                    "text": "those",
+                    "start": 2,
+                    "end": 3
+                },
+                "entity_id": "AFP_ENG_20030327.0022-E9-18",
+                "start": 2,
+                "end": 6
+            },
+            {
+                "text": "16 people",
+                "entity-type": "PER:Group",
+                "head": {
+                    "text": "people",
+                    "start": 8,
+                    "end": 9
+                },
+                "entity_id": "AFP_ENG_20030327.0022-E10-19",
+                "start": 7,
+                "end": 9
+            },
+            {
+                "text": "11 foreigners",
+                "entity-type": "PER:Group",
+                "head": {
+                    "text": "foreigners",
+                    "start": 18,
+                    "end": 19
+                },
+                "entity_id": "AFP_ENG_20030327.0022-E11-20",
+                "start": 17,
+                "end": 19
+            },
+            {
+                "text": "four Indonesians",
+                "entity-type": "PER:Group",
+                "head": {
+                    "text": "Indonesians",
+                    "start": 21,
+                    "end": 22
+                },
+                "entity_id": "AFP_ENG_20030327.0022-E12-21",
+                "start": 20,
+                "end": 22
+            },
+            {
+                "text": "a Dutch citizen of Chinese-Indonesian origin",
+                "entity-type": "PER:Individual",
+                "head": {
+                    "text": "citizen",
+                    "start": 25,
+                    "end": 26
+                },
+                "entity_id": "AFP_ENG_20030327.0022-E13-22",
+                "start": 23,
+                "end": 29
+            },
+            {
+                "text": "Indonesian",
+                "entity-type": "GPE:Nation",
+                "head": {
+                    "text": "Indonesian",
+                    "start": 27,
+                    "end": 28
+                },
+                "entity_id": "AFP_ENG_20030327.0022-E15-40",
+                "start": 27,
+                "end": 28
+            },
+            {
+                "text": "Dutch",
+                "entity-type": "GPE:Nation",
+                "head": {
+                    "text": "Dutch",
+                    "start": 24,
+                    "end": 25
+                },
+                "entity_id": "AFP_ENG_20030327.0022-E26-39",
+                "start": 24,
+                "end": 25
+            },
+            {
+                "text": "Chinese",
+                "entity-type": "GPE:Nation",
+                "head": {
+                    "text": "Chinese",
+                    "start": 27,
+                    "end": 28
+                },
+                "entity_id": "AFP_ENG_20030327.0022-E27-41",
+                "start": 27,
+                "end": 28
+            },
+            {
+                "text": "murder",
+                "entity-type": "Crime",
+                "head": {
+                    "text": "murder",
+                    "start": 5,
+                    "end": 6
+                },
+                "entity_id": "AFP_ENG_20030327.0022-V1-1",
+                "start": 5,
+                "end": 6
+            },
+            {
+                "text": "drug trafficking",
+                "entity-type": "Crime",
+                "head": {
+                    "text": "drug trafficking",
+                    "start": 14,
+                    "end": 16
+                },
+                "entity_id": "AFP_ENG_20030327.0022-V8-1",
+                "start": 14,
+                "end": 16
+            }
+        ],
+        "golden-event-mentions": [
+            {
+                "trigger": {
+                    "text": "convicted",
+                    "start": 3,
+                    "end": 4
+                },
+                "arguments": [
+                    {
+                        "role": "Defendant",
+                        "entity-type": "PER:Group",
+                        "text": "those convicted of murder",
+                        "start": 2,
+                        "end": 6
+                    },
+                    {
+                        "role": "Crime",
+                        "entity-type": "Crime",
+                        "text": "murder",
+                        "start": 5,
+                        "end": 6
+                    }
+                ],
+                "event_type": "Justice:Convict"
+            },
+            {
+                "trigger": {
+                    "text": "death",
+                    "start": 11,
+                    "end": 12
+                },
+                "arguments": [],
+                "event_type": "Life:Die"
+            }
+        ],
+        "stanford-colcc": [
+            "ROOT/dep=12/gov=-1",
+            "case/dep=0/gov=2",
+            "mwe/dep=1/gov=0",
+            "nmod:apart_from/dep=2/gov=12",
+            "acl/dep=3/gov=2",
+            "case/dep=4/gov=5",
+            "nmod:of/dep=5/gov=3",
+            "punct/dep=6/gov=12",
+            "nummod/dep=7/gov=8",
+            "nsubj/dep=8/gov=12",
+            "cop/dep=9/gov=12",
+            "case/dep=10/gov=12",
+            "compound/dep=11/gov=12",
+            "case/dep=13/gov=15",
+            "compound/dep=14/gov=15",
+            "nmod:for/dep=15/gov=12",
+            "punct/dep=16/gov=12",
+            "nummod/dep=17/gov=18",
+            "dep/dep=18/gov=12",
+            "punct/dep=19/gov=18",
+            "nummod/dep=20/gov=21",
+            "appos/dep=21/gov=18",
+            "cc/dep=22/gov=12",
+            "det/dep=23/gov=25",
+            "amod/dep=24/gov=25",
+            "conj:and/dep=25/gov=12",
+            "case/dep=26/gov=28",
+            "amod/dep=27/gov=28",
+            "nmod:of/dep=28/gov=25",
+            "punct/dep=29/gov=12"
+        ],
+        "words": [
+            "Apart",
+            "from",
+            "those",
+            "convicted",
+            "of",
+            "murder",
+            ",",
+            "16",
+            "people",
+            "are",
+            "on",
+            "death",
+            "row",
+            "for",
+            "drug",
+            "trafficking",
+            "--",
+            "11",
+            "foreigners",
+            ",",
+            "four",
+            "Indonesians",
+            "and",
+            "a",
+            "Dutch",
+            "citizen",
+            "of",
+            "Chinese-Indonesian",
+            "origin",
+            "."
+        ],
+        "pos-tags": [
+            "RB",
+            "IN",
+            "DT",
+            "VBN",
+            "IN",
+            "NN",
+            ",",
+            "CD",
+            "NNS",
+            "VBP",
+            "IN",
+            "NN",
+            "NN",
+            "IN",
+            "NN",
+            "NN",
+            ":",
+            "CD",
+            "NNS",
+            ",",
+            "CD",
+            "NNPS",
+            "CC",
+            "DT",
+            "JJ",
+            "NN",
+            "IN",
+            "JJ",
+            "NN",
+            "."
+        ],
+        "lemma": [
+            "apart",
+            "from",
+            "those",
+            "convict",
+            "of",
+            "murder",
+            ",",
+            "16",
+            "people",
+            "be",
+            "on",
+            "death",
+            "row",
+            "for",
+            "drug",
+            "trafficking",
+            "--",
+            "11",
+            "foreigner",
+            ",",
+            "four",
+            "Indonesians",
+            "and",
+            "a",
+            "dutch",
+            "citizen",
+            "of",
+            "chinese-indonesian",
+            "origin",
+            "."
+        ],
+        "parse": "(ROOT\n  (S\n    (PP\n      (ADVP (RB Apart))\n      (IN from)\n      (NP\n        (NP (DT those))\n        (VP (VBN convicted)\n          (PP (IN of)\n            (NP (NN murder))))))\n    (, ,)\n    (NP (CD 16) (NNS people))\n    (VP (VBP are)\n      (PP (IN on)\n        (NP\n          (NP\n            (NP\n              (NP (NN death) (NN row))\n              (PP (IN for)\n                (NP (NN drug) (NN trafficking))))\n            (: --)\n            (NP\n              (NP (CD 11) (NNS foreigners))\n              (, ,)\n              (NP (CD four) (NNPS Indonesians))))\n          (CC and)\n          (NP\n            (NP (DT a) (JJ Dutch) (NN citizen))\n            (PP (IN of)\n              (NP (JJ Chinese-Indonesian) (NN origin)))))))\n    (. .)))"
+    },
+    {
+        "sentence": "Amnesty International has appealed to Indonesia to spare the lives of convicted drug offenders and others, saying there was no proof the death penalty deters would-be traffickers more effectively than other punishments.",
+        "golden-entity-mentions": [
+            {
+                "text": "Indonesia",
+                "entity-type": "GPE:Nation",
+                "head": {
+                    "text": "Indonesia",
+                    "start": 5,
+                    "end": 6
+                },
+                "entity_id": "AFP_ENG_20030327.0022-E15-28",
+                "start": 5,
+                "end": 6
+            },
+            {
+                "text": "Amnesty International",
+                "entity-type": "ORG:Non-Governmental",
+                "head": {
+                    "text": "Amnesty International",
+                    "start": 0,
+                    "end": 2
+                },
+                "entity_id": "AFP_ENG_20030327.0022-E17-27",
+                "start": 0,
+                "end": 2
+            },
+            {
+                "text": "convicted drug offenders",
+                "entity-type": "PER:Group",
+                "head": {
+                    "text": "offenders",
+                    "start": 13,
+                    "end": 14
+                },
+                "entity_id": "AFP_ENG_20030327.0022-E18-29",
+                "start": 11,
+                "end": 14
+            },
+            {
+                "text": "others",
+                "entity-type": "PER:Group",
+                "head": {
+                    "text": "others",
+                    "start": 15,
+                    "end": 16
+                },
+                "entity_id": "AFP_ENG_20030327.0022-E19-30",
+                "start": 15,
+                "end": 16
+            },
+            {
+                "text": "would-be traffickers",
+                "entity-type": "PER:Group",
+                "head": {
+                    "text": "traffickers",
+                    "start": 27,
+                    "end": 28
+                },
+                "entity_id": "AFP_ENG_20030327.0022-E20-31",
+                "start": 26,
+                "end": 28
+            },
+            {
+                "text": "drug",
+                "entity-type": "Crime",
+                "head": {
+                    "text": "drug",
+                    "start": 12,
+                    "end": 13
+                },
+                "entity_id": "AFP_ENG_20030327.0022-V6-1",
+                "start": 12,
+                "end": 13
+            }
+        ],
+        "golden-event-mentions": [
+            {
+                "trigger": {
+                    "text": "convicted",
+                    "start": 11,
+                    "end": 12
+                },
+                "arguments": [
+                    {
+                        "role": "Defendant",
+                        "entity-type": "PER:Group",
+                        "text": "convicted drug offenders",
+                        "start": 11,
+                        "end": 14
+                    },
+                    {
+                        "role": "Crime",
+                        "entity-type": "Crime",
+                        "text": "drug",
+                        "start": 12,
+                        "end": 13
+                    },
+                    {
+                        "role": "Place",
+                        "entity-type": "GPE:Nation",
+                        "text": "Indonesia",
+                        "start": 5,
+                        "end": 6
+                    }
+                ],
+                "event_type": "Justice:Convict"
+            },
+            {
+                "trigger": {
+                    "text": "death",
+                    "start": 23,
+                    "end": 24
+                },
+                "arguments": [],
+                "event_type": "Life:Die"
+            }
+        ],
+        "stanford-colcc": [
+            "ROOT/dep=3/gov=-1",
+            "compound/dep=0/gov=1",
+            "nsubj/dep=1/gov=3",
+            "nsubj:xsubj/dep=1/gov=7",
+            "aux/dep=2/gov=3",
+            "case/dep=4/gov=5",
+            "nmod:to/dep=5/gov=3",
+            "mark/dep=6/gov=7",
+            "xcomp/dep=7/gov=3",
+            "det/dep=8/gov=9",
+            "dobj/dep=9/gov=7",
+            "case/dep=10/gov=13",
+            "amod/dep=11/gov=13",
+            "compound/dep=12/gov=13",
+            "nmod:of/dep=13/gov=9",
+            "cc/dep=14/gov=13",
+            "nmod:of/dep=15/gov=9",
+            "conj:and/dep=15/gov=13",
+            "punct/dep=16/gov=7",
+            "advcl/dep=17/gov=7",
+            "expl/dep=18/gov=19",
+            "ccomp/dep=19/gov=17",
+            "neg/dep=20/gov=21",
+            "nsubj/dep=21/gov=19",
+            "det/dep=22/gov=24",
+            "compound/dep=23/gov=24",
+            "nsubj/dep=24/gov=25",
+            "acl:relcl/dep=25/gov=21",
+            "amod/dep=26/gov=27",
+            "dobj/dep=27/gov=25",
+            "advmod/dep=28/gov=29",
+            "advmod/dep=29/gov=25",
+            "case/dep=30/gov=32",
+            "amod/dep=31/gov=32",
+            "nmod:than/dep=32/gov=29",
+            "punct/dep=33/gov=3"
+        ],
+        "words": [
+            "Amnesty",
+            "International",
+            "has",
+            "appealed",
+            "to",
+            "Indonesia",
+            "to",
+            "spare",
+            "the",
+            "lives",
+            "of",
+            "convicted",
+            "drug",
+            "offenders",
+            "and",
+            "others",
+            ",",
+            "saying",
+            "there",
+            "was",
+            "no",
+            "proof",
+            "the",
+            "death",
+            "penalty",
+            "deters",
+            "would-be",
+            "traffickers",
+            "more",
+            "effectively",
+            "than",
+            "other",
+            "punishments",
+            "."
+        ],
+        "pos-tags": [
+            "NNP",
+            "NNP",
+            "VBZ",
+            "VBN",
+            "TO",
+            "NNP",
+            "TO",
+            "VB",
+            "DT",
+            "NNS",
+            "IN",
+            "VBN",
+            "NN",
+            "NNS",
+            "CC",
+            "NNS",
+            ",",
+            "VBG",
+            "EX",
+            "VBD",
+            "DT",
+            "NN",
+            "DT",
+            "NN",
+            "NN",
+            "VBZ",
+            "JJ",
+            "NNS",
+            "RBR",
+            "RB",
+            "IN",
+            "JJ",
+            "NNS",
+            "."
+        ],
+        "lemma": [
+            "Amnesty",
+            "International",
+            "have",
+            "appeal",
+            "to",
+            "Indonesia",
+            "to",
+            "spare",
+            "the",
+            "life",
+            "of",
+            "convict",
+            "drug",
+            "offender",
+            "and",
+            "other",
+            ",",
+            "say",
+            "there",
+            "be",
+            "no",
+            "proof",
+            "the",
+            "death",
+            "penalty",
+            "deter",
+            "would-be",
+            "trafficker",
+            "more",
+            "effectively",
+            "than",
+            "other",
+            "punishment",
+            "."
+        ],
+        "parse": "(ROOT\n  (S\n    (NP (NNP Amnesty) (NNP International))\n    (VP (VBZ has)\n      (VP (VBN appealed)\n        (PP (TO to)\n          (NP (NNP Indonesia)))\n        (S\n          (VP (TO to)\n            (VP (VB spare)\n              (NP\n                (NP (DT the) (NNS lives))\n                (PP (IN of)\n                  (NP\n                    (NP (VBN convicted) (NN drug) (NNS offenders))\n                    (CC and)\n                    (NP (NNS others)))))\n              (, ,)\n              (S\n                (VP (VBG saying)\n                  (SBAR\n                    (S\n                      (NP (EX there))\n                      (VP (VBD was)\n                        (NP\n                          (NP (DT no) (NN proof))\n                          (SBAR\n                            (S\n                              (NP (DT the) (NN death) (NN penalty))\n                              (VP (VBZ deters)\n                                (NP (JJ would-be) (NNS traffickers))\n                                (ADVP\n                                  (ADVP (RBR more) (RB effectively))\n                                  (PP (IN than)\n                                    (NP (JJ other) (NNS punishments))))))))))))))))))\n    (. .)))"
+    },
+    {
+        "sentence": "Use of the death penalty is rare in Indonesia, where the last execution was carried out in May 2001 of two men convicted of a murder in 1989.",
+        "golden-entity-mentions": [
+            {
+                "text": "Indonesia, where the last execution was carried out in May 2001 of two men convicted of a murder in 1989",
+                "entity-type": "GPE:Nation",
+                "head": {
+                    "text": "Indonesia",
+                    "start": 8,
+                    "end": 9
+                },
+                "entity_id": "AFP_ENG_20030327.0022-E15-33",
+                "start": 8,
+                "end": 29
+            },
+            {
+                "text": "where",
+                "entity-type": "GPE:Nation",
+                "head": {
+                    "text": "where",
+                    "start": 10,
+                    "end": 11
+                },
+                "entity_id": "AFP_ENG_20030327.0022-E15-34",
+                "start": 10,
+                "end": 11
+            },
+            {
+                "text": "two men convicted of a murder in 1989",
+                "entity-type": "PER:Group",
+                "head": {
+                    "text": "men",
+                    "start": 22,
+                    "end": 23
+                },
+                "entity_id": "AFP_ENG_20030327.0022-E21-35",
+                "start": 21,
+                "end": 29
+            },
+            {
+                "text": "murder",
+                "entity-type": "Crime",
+                "head": {
+                    "text": "murder",
+                    "start": 26,
+                    "end": 27
+                },
+                "entity_id": "AFP_ENG_20030327.0022-V4-1",
+                "start": 26,
+                "end": 27
+            },
+            {
+                "text": "May 2001",
+                "entity-type": "TIM:time",
+                "head": {
+                    "text": "May 2001",
+                    "start": 18,
+                    "end": 20
+                },
+                "entity_id": "AFP_ENG_20030327.0022-T4-1",
+                "start": 18,
+                "end": 20
+            },
+            {
+                "text": "1989",
+                "entity-type": "TIM:time",
+                "head": {
+                    "text": "1989",
+                    "start": 28,
+                    "end": 29
+                },
+                "entity_id": "AFP_ENG_20030327.0022-T5-1",
+                "start": 28,
+                "end": 29
+            }
+        ],
+        "golden-event-mentions": [
+            {
+                "trigger": {
+                    "text": "convicted",
+                    "start": 23,
+                    "end": 24
+                },
+                "arguments": [
+                    {
+                        "role": "Defendant",
+                        "entity-type": "PER:Group",
+                        "text": "two men convicted of a murder in 1989",
+                        "start": 21,
+                        "end": 29
+                    },
+                    {
+                        "role": "Crime",
+                        "entity-type": "Crime",
+                        "text": "murder",
+                        "start": 26,
+                        "end": 27
+                    },
+                    {
+                        "role": "Place",
+                        "entity-type": "GPE:Nation",
+                        "text": "Indonesia, where the last execution was carried out in May 2001 of two men convicted of a murder in 1989",
+                        "start": 8,
+                        "end": 29
+                    },
+                    {
+                        "role": "Time-Within",
+                        "entity-type": "TIM:time",
+                        "text": "1989",
+                        "start": 28,
+                        "end": 29
+                    }
+                ],
+                "event_type": "Justice:Convict"
+            },
+            {
+                "trigger": {
+                    "text": "execution",
+                    "start": 13,
+                    "end": 14
+                },
+                "arguments": [
+                    {
+                        "role": "Crime",
+                        "entity-type": "Crime",
+                        "text": "murder",
+                        "start": 26,
+                        "end": 27
+                    },
+                    {
+                        "role": "Person",
+                        "entity-type": "PER:Group",
+                        "text": "two men convicted of a murder in 1989",
+                        "start": 21,
+                        "end": 29
+                    },
+                    {
+                        "role": "Place",
+                        "entity-type": "GPE:Nation",
+                        "text": "Indonesia, where the last execution was carried out in May 2001 of two men convicted of a murder in 1989",
+                        "start": 8,
+                        "end": 29
+                    },
+                    {
+                        "role": "Time-Within",
+                        "entity-type": "TIM:time",
+                        "text": "May 2001",
+                        "start": 18,
+                        "end": 20
+                    }
+                ],
+                "event_type": "Justice:Execute"
+            },
+            {
+                "trigger": {
+                    "text": "death",
+                    "start": 3,
+                    "end": 4
+                },
+                "arguments": [],
+                "event_type": "Life:Die"
+            },
+            {
+                "trigger": {
+                    "text": "murder",
+                    "start": 26,
+                    "end": 27
+                },
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "entity-type": "PER:Group",
+                        "text": "two men convicted of a murder in 1989",
+                        "start": 21,
+                        "end": 29
+                    }
+                ],
+                "event_type": "Life:Die"
+            }
+        ],
+        "stanford-colcc": [
+            "ROOT/dep=6/gov=-1",
+            "nsubj/dep=0/gov=6",
+            "case/dep=1/gov=4",
+            "det/dep=2/gov=4",
+            "compound/dep=3/gov=4",
+            "nmod:of/dep=4/gov=0",
+            "cop/dep=5/gov=6",
+            "case/dep=7/gov=8",
+            "nmod:in/dep=8/gov=6",
+            "punct/dep=9/gov=8",
+            "advmod/dep=10/gov=15",
+            "det/dep=11/gov=13",
+            "amod/dep=12/gov=13",
+            "nsubjpass/dep=13/gov=15",
+            "auxpass/dep=14/gov=15",
+            "acl:relcl/dep=15/gov=8",
+            "compound:prt/dep=16/gov=15",
+            "case/dep=17/gov=18",
+            "nmod:in/dep=18/gov=15",
+            "nummod/dep=19/gov=18",
+            "case/dep=20/gov=22",
+            "nummod/dep=21/gov=22",
+            "nmod:of/dep=22/gov=18",
+            "acl/dep=23/gov=22",
+            "case/dep=24/gov=26",
+            "det/dep=25/gov=26",
+            "nmod:of/dep=26/gov=23",
+            "case/dep=27/gov=28",
+            "nmod:in/dep=28/gov=26",
+            "punct/dep=29/gov=6"
+        ],
+        "words": [
+            "Use",
+            "of",
+            "the",
+            "death",
+            "penalty",
+            "is",
+            "rare",
+            "in",
+            "Indonesia",
+            ",",
+            "where",
+            "the",
+            "last",
+            "execution",
+            "was",
+            "carried",
+            "out",
+            "in",
+            "May",
+            "2001",
+            "of",
+            "two",
+            "men",
+            "convicted",
+            "of",
+            "a",
+            "murder",
+            "in",
+            "1989",
+            "."
+        ],
+        "pos-tags": [
+            "NN",
+            "IN",
+            "DT",
+            "NN",
+            "NN",
+            "VBZ",
+            "JJ",
+            "IN",
+            "NNP",
+            ",",
+            "WRB",
+            "DT",
+            "JJ",
+            "NN",
+            "VBD",
+            "VBN",
+            "RP",
+            "IN",
+            "NNP",
+            "CD",
+            "IN",
+            "CD",
+            "NNS",
+            "VBN",
+            "IN",
+            "DT",
+            "NN",
+            "IN",
+            "CD",
+            "."
+        ],
+        "lemma": [
+            "use",
+            "of",
+            "the",
+            "death",
+            "penalty",
+            "be",
+            "rare",
+            "in",
+            "Indonesia",
+            ",",
+            "where",
+            "the",
+            "last",
+            "execution",
+            "be",
+            "carry",
+            "out",
+            "in",
+            "May",
+            "2001",
+            "of",
+            "two",
+            "man",
+            "convict",
+            "of",
+            "a",
+            "murder",
+            "in",
+            "1989",
+            "."
+        ],
+        "parse": "(ROOT\n  (S\n    (NP\n      (NP (NN Use))\n      (PP (IN of)\n        (NP (DT the) (NN death) (NN penalty))))\n    (VP (VBZ is)\n      (ADJP (JJ rare)\n        (PP (IN in)\n          (NP\n            (NP (NNP Indonesia))\n            (, ,)\n            (SBAR\n              (WHADVP (WRB where))\n              (S\n                (NP (DT the) (JJ last) (NN execution))\n                (VP (VBD was)\n                  (VP (VBN carried)\n                    (PRT (RP out))\n                    (PP (IN in)\n                      (NP\n                        (NP (NNP May) (CD 2001))\n                        (PP (IN of)\n                          (NP\n                            (NP (CD two) (NNS men))\n                            (VP (VBN convicted)\n                              (PP (IN of)\n                                (NP\n                                  (NP (DT a) (NN murder))\n                                  (PP (IN in)\n                                    (NP (CD 1989))))))))))))))))))\n    (. .)))"
+    }
+]
