@@ -57,13 +57,15 @@ class EERunner(object):
         parser.add_argument("--earlystop", default=10, type=int)
         parser.add_argument("--restart", default=10, type=int)
 
-        parser.add_argument("--device", default="cpu")
+        parser.add_argument("--device", default="cuda")
         parser.add_argument("--hps", help="model hyperparams", required=False)
 
         self.a = parser.parse_args()
 
-    def set_device(self, device="cpu"):
+    def set_device(self, device="cuda"):
         # self.device = torch.device(device)
+        if torch.cuda.is_available():
+            print("torch.cuda.is_available, cuda")
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     def get_device(self):
@@ -256,6 +258,7 @@ class EERunner(object):
         )
         log('Pre-train Done!')
         
+        torch.save(model, "out/pre-train-model.pt")
         
         # -------------- Fine-tune ----------------
         train_set_ft = ACE2005Dataset(path=self.a.train_ft,
@@ -288,6 +291,9 @@ class EERunner(object):
                                           "all-events": ("EVENT", EventsField),
                                           "all-entities": ("ENTITIES", EntitiesField)},
                                   keep_events=0)
+        
+        model = torch.load("out/pre-train-model.pt")
+        model.eval()
         
         train(
             model=model,
